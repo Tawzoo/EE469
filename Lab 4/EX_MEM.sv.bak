@@ -1,0 +1,27 @@
+`timescale 1ps / 1ps
+module EX_MEM (MEM_en_in, WB_en_in, WB_en_out, PC_Addr_in, PC_Addr_out, Set_Flags, 
+					EX_MEM_Set_Flags, ALU_Result_in, ALU_Result_out, ALU_FF, Instruction4_0, EX_MEM_Rd, clk, reset);
+	input logic wrt_en, reset, clk;
+	input logic [63:0] PC_Addr_in;
+	input logic [31:0] Instruction_in;
+	output logic [63:0] PC_Addr_out;
+	output logic [31:0] Instruction_out;
+	
+	genvar i;
+	generate
+		for(i = 0; i< 64; i++) begin : eachDFF1
+			en_reg1 u_en_reg_1i (.wrt_en(IF_ID_en), .datain(PC_Addr_in[i]), .reset(IF_Flush), .clk(clk), .dataout(PC_Addr_out[i]));
+
+		end
+	endgenerate 
+	
+	genvar j;
+	generate
+		for(j = 0; j< 32; j++) begin : eachDFF2
+			en_reg2 u_en_reg_2i (.wrt_en(IF_ID_en), .datain(Instruction_in[i]), .reset(IF_Flush), .clk(clk), .dataout(Instruction_out[i]));
+
+		end
+	endgenerate 
+
+
+endmodule 

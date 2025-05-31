@@ -1,0 +1,16 @@
+`timescale 1ps / 1ps
+module FlagRegister (clk, reset, en, in, out);
+	input logic clk, reset, en;
+	input logic [3:0] in;
+	output logic [3:0] out;
+
+	logic [3:0] store;
+
+	genvar i;
+	generate 
+			for(i = 0; i < 4; i++) begin flag_dff
+					mux2_1 flag_mux (.i0(in[i]), .i1(out[i]), ,sel(en), .out(store[i]));
+					D_FF flag_dff (.q(store[i]), .d(out[i]), .reset, .clk)
+
+
+endmodule 

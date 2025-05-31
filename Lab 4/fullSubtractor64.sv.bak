@@ -1,0 +1,29 @@
+`timescale 1ps / 1ps
+module fullSubtractor64 (A, B, out, carryout, overflow, negative);
+
+	input logic  [63:0] A, B;
+	output logic [63:0] out; 
+	output logic carryout, overflow, negative;
+	
+	parameter Delay = 50;
+	
+	logic [63:0] carry_arr; 
+	
+	fullSubtractor first_subtract (.A(A[0]), .B(B[0]), .Sum(out[0]), .Cout(carry_arr[0]));
+
+	genvar i;
+	
+	generate
+		for(i = 1; i< 64; i++) begin : eachAdder
+			fullAdder addder (.A(A[i]), .B(B[i]), .Cin(carry_arr[i-1]), .Sum(out[i]), .Cout(carry_arr[i]));
+
+		end
+	endgenerate 
+	
+	// flags 
+	assign carryout = carry_arr[63];
+	xor #Delay xor_Gate(overflow, carry_arr[63], carry_arr[62]);
+	assign negative = out[63];
+	
+
+endmodule 

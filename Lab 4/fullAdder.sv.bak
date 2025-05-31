@@ -1,0 +1,13 @@
+module fullAdder (A, B, Cin, Sum, Cout);
+
+	input logic A, B, Cin;
+	output logic Sum, Cout;
+	
+	parameter Delay = 50;
+	
+	logic AB, BCin, ACin; 
+	
+	
+	
+
+endmodule 

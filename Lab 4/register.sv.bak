@@ -1,0 +1,55 @@
+module register (wrt_en, reset, clk, datain, dataout);
+	input logic wrt_en, reset, clk;
+	input logic [63:0] datain;
+	output logic [63:0] dataout;
+	
+	genvar i;
+	
+	generate
+		for(i = 0; i< 64; i++) begin : eachDFF
+			en_reg (.wrt_en, .datain(datain[i]), .reset, .clk, .dataout(dataout[i]);
+		end
+	endgenerate 
+
+
+endmodule 
+
+
+module register_testbench ();
+	logic wrt_en, reset, clk;
+	logic [63:0] datain;
+	logic [63:0] dataout;
+	
+	register dut (.*);
+	
+	parameter clk_PERIOD=50;
+	initial begin
+		clk <= 0;
+		forever #(clk_PERIOD/2) clk <= ~clk; // Forever toggle the clk
+	end
+	
+	initial begin 
+	
+	wrt_en <= 0; datain <= 0; reset <= 1;
+			repeat(4) @(posedge clk); 
+			
+	reset <= 0;
+			repeat(4) @(posedge clk); 
+	
+	wrt_en <= 1; datain <= 1;
+			repeat(4) @(posedge clk); 
+			
+	datain <= 0;
+			repeat(4) @(posedge clk); 
+	
+	wrt_en <= 1; datain <= 1;
+		repeat(2) @(posedge clk); 
+	
+	reset <= 1;
+		repeat(4) @(posedge clk); 
+	
+	$stop;
+	end
+
+
+endmodule 

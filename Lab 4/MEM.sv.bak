@@ -1,0 +1,11 @@
+`timescale 1ps / 1ps
+module MEM (WB_en_in, WB_en_out, PC_Addr_in, PC_Addr_out, MEM_Read ALU_Result, DM_Read_Data, MemtoReg, BrLink, Write_Data, clk, reset);
+					
+	input logic MemtoReg, BrLink, reset, clk;
+	input logic [63:0] PC_Addr, DM_Read_Data, ALU_Result;
+	
+	output logic [63:0] Write_Data;
+
+	//4:1 mux
+	mux4_1_64 mux1(.i0(DM_Read_Data), .i1(ALU_Result), .i2(PC_Addr), .i3(64'bx), .sel({BrLink, MemtoReg}), .out(Write_Data));
+	

@@ -1,0 +1,12 @@
+module en_reg (wrt_en, datain, reset, clk, q);
+	input wrt_en, datain, reset, clk;
+	output q;
+	
+	logic dataold, d;
+	
+	mux2_1 dut (.i0(dataold), .i1(datain), .sel(wrt_en), .out(d);
+	
+	D_FF d_ff (.q(dataold), .d(d), .reset(reset), .clk(clk));
+	
+endmodule 
+

@@ -1,0 +1,15 @@
+`timescale 1ps / 1ps
+module pc_counter (reset, clk, datain, dataout);
+    input logic reset, clk;
+    input logic [63:0] datain;
+    output logic [63:0] dataout;
+
+    genvar i;
+
+    generate
+        for(i = 0; i< 64; i++) begin : eachDFF
+            D_FF dff1 (.q(dataout[i]), .d(datain[i]), .reset(reset), .clk(clk));
+
+        end
+    endgenerate 
+endmodule

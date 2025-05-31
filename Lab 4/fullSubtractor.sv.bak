@@ -1,0 +1,16 @@
+`timescale 1ps / 1ps
+module fullSubtractor(A, B, Sum, Cout);
+
+	input logic A, B,
+	output logic Sum, Cout;
+	
+	parameter Delay = 50;
+	
+	logic inv_B; 
+	
+	not #Delay not_Gate(inv_B, B);
+	
+	fullAdder add(.A, .B, Cin(1'b1), .Sum, .Cout);
+
+
+endmodule 

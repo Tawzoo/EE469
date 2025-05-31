@@ -1,0 +1,12 @@
+module Forwarding_Unit (ID_Rn, ID_Rm, EX_Rd, MEM_Rd, EX_RegWrite, MEM_RegWrite, ForwardA, ForwardB);
+
+	input logic [4:0] ID_Rn, ID_Rm, EX_Rd, MEM_Rd;
+	input logic EX_RegWrite, MEM_RegWrite;
+	output logic [1:0] ForwardA, ForwardB;
+	
+	always_comb begin
+		// Default	
+		
+		
+	end 
+endmodule

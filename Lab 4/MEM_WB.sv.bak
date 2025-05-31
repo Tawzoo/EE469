@@ -1,0 +1,59 @@
+`timescale 1ps / 1ps
+module MEM_WB (WB_en_in, PC_Addr_in, PC_Addr_out, ALU_Result_in, ALU_Result_out, 
+					Instruction4_0, MEM_WB_Rd, DM_Read_Data_in, DM_Read_Data_out, 
+					MemtoReg_in, BrLink_in, MemtoReg_out, BrLink_out, clk, reset);
+					
+	input logic MEM_en_in, WB_en_in, reset, clk, BrTaken_in, MemRead_in, MemtoReg_in, MemWrite_in, RegWrite_in, BrLink_in, negative_in, zero_in, overflow_in, carry_out_in;
+	input logic [63:0] PC_Addr_in, ALU_Result_in, ALU_FF_in;
+	input logic [3:0] Set_Flags;
+	input logic [4:0] Instruction4_0;
+	
+	output logic WB_en_out, BrTaken_out, MemRead_out, MemtoReg_out, MemWrite_out, RegWrite_out, BrLink_out, negative_out, zero_out, overflow_out, carry_out_out;
+	output logic [63:0] PC_Addr_out, ALU_Result_out, ALU_FF_out;
+	output logic [3:0] EX_MEM_Set_Flags;
+	output logic [4:0] EX_MEM_Rd;
+
+	//PC_Addr, ALU_Result, ALU_FF
+	genvar i;
+	generate
+		for(i = 0; i< 64; i++) begin : eachDFF1
+			en_reg u_en_reg_1i (.wrt_en(MEM_en_in), .datain(PC_Addr_in[i]), .reset(reset), .clk(clk), .dataout(PC_Addr_out[i]));
+			en_reg u_en_reg_2i (.wrt_en(MEM_en_in), .datain(ALU_Result_in[i]), .reset(reset), .clk(clk), .dataout(ALU_Result_out[i]));
+			en_reg u_en_reg_3i (.wrt_en(MEM_en_in), .datain(ALU_FF_in[i]), .reset(reset), .clk(clk), .dataout(ALU_FF_out[i]));
+		end
+	endgenerate 
+	
+	//Set_Flags
+	genvar j;
+	generate
+		for(j = 0; j< 4; j++) begin : eachDFF2
+			en_reg u_en_reg_4i (.wrt_en(MEM_en_in), .datain(SetFlags), .reset(reset), .clk(clk), .dataout(EX_MEM_Set_Flags));
+		end
+	endgenerate 
+	
+	//Instruction4_0
+	genvar k;
+	generate
+		for(k = 0; k< 5; k++) begin : eachDFF3
+			en_reg u_en_reg_5i (.wrt_en(MEM_en_in), .datain(Instruction4_0[i]), .reset(reset), .clk(clk), .dataout(EX_MEM_Rd[i]));
+		end
+	endgenerate 
+
+	//WB_en
+	en_reg u_en_reg_9 (.wrt_en(MEM_en_in), .datain(WB_en_in), .reset(reset), .clk(clk), .dataout(WB_en_out));
+	
+	//Control Signals
+	//BrTaken, MemRead, MemtoReg, MemWrite, RegWrite, BrLink, negative_out
+	en_reg u_en_reg_10 (.wrt_en(MEM_en_in), .datain(BrTaken_in), .reset(reset), .clk(clk), .dataout(BrTaken_out));
+	en_reg u_en_reg_11 (.wrt_en(MEM_en_in), .datain(MemRead_in), .reset(reset), .clk(clk), .dataout(MemRead_out));
+	en_reg u_en_reg_12 (.wrt_en(MEM_en_in), .datain(MemtoReg_in), .reset(reset), .clk(clk), .dataout(MemtoReg_out));
+	en_reg u_en_reg_13 (.wrt_en(MEM_en_in), .datain(MemWrite_in), .reset(reset), .clk(clk), .dataout(MemWrite_out));
+	en_reg u_en_reg_14 (.wrt_en(MEM_en_in), .datain(RegWrite_in), .reset(reset), .clk(clk), .dataout(RegWrite_out));
+	en_reg u_en_reg_15 (.wrt_en(MEM_en_in), .datain(BrLink_in), .reset(reset), .clk(clk), .dataout(BrLink_out));
+	
+	//ALU Flags
+	//negative, zero_out, overflow_out, carry_out_out
+	en_reg u_en_reg_16 (.wrt_en(MEM_en_in), .datain(negative_in), .reset(reset), .clk(clk), .dataout(negative_out));
+	en_reg u_en_reg_17 (.wrt_en(MEM_en_in), .datain(zero_in), .reset(reset), .clk(clk), .dataout(zero_out));
+	en_reg u_en_reg_18 (.wrt_en(MEM_en_in), .datain(overflow_in), .reset(reset), .clk(clk), .dataout(overflow_out));
+	en_reg u_en_reg_19 (.wrt_en(MEM_en_in), .datain(carry_out_in), .reset(reset), .clk(clk), .dataout(carry_out_out));

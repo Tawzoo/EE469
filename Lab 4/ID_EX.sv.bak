@@ -1,0 +1,29 @@
+`timescale 1ps / 1ps
+module ID_IX (WB_en_in, WB_en_out, MEM_en_in, MEM_en_out, EX_en_in, Control_Signals_in, 
+				  Control_Signals_out, PC_Addr_in, PC_Addr_out, Read_daata1_in, Read_data1_out, 
+				  Read_data2_in, Read_data2_out, Imm9Ext_in, Imm9Ext_out, Imm12Ext_in, Imm12Ext_out, 
+				  Instruction_in, Instruction9_3, Instruction20_16, Instruction4_0 );
+	input logic WB_en_in, MEM_en_in, Ex_en; //Control signals??
+	input logic [63:0] PC_Addr_in, Read_data1_in, Read_data2_in, Imm9Ext_in, Imm12Ext_in;
+	input logic [31:0] Instruction_in;
+	output logic [63:0] PC_Addr_out;
+	output logic [31:0] Instruction_out;
+	
+	genvar i;
+	generate
+		for(i = 0; i< 64; i++) begin : eachDFF1
+			en_reg1 u_en_reg_1i (.wrt_en(IF_ID_en), .datain(PC_Addr_in[i]), .reset(IF_Flush), .clk(clk), .dataout(PC_Addr_out[i]));
+
+		end
+	endgenerate 
+	
+	genvar j;
+	generate
+		for(i = 0; i< 32; i++) begin : eachDFF2
+			en_reg2 u_en_reg_2i (.wrt_en(IF_ID_en), .datain(Instruction_in[i]), .reset(IF_Flush), .clk(clk), .dataout(Instruction_out[i]));
+
+		end
+	endgenerate 
+
+
+endmodule 

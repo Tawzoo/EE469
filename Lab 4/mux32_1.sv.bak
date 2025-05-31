@@ -1,0 +1,30 @@
+`timescale 1ps / 1ps
+module mux32_1(in, sel, out);
+	input logic [15:0] in; 
+	input logic [3:0] sel;
+	output logic out;
+	
+	logic m0_out, m1_out;
+	
+	mux8_1 m0 (.in(in[7:0]), .sel(sel[2:0]), .out(m0_out));
+	mux8_1 m1 (.in(in[15:8]), .sel(sel[2:0]), .out(m1_out));
+	mux2_1 m  (.i0(m0_out), .i1(m1_out), .sel(sel[3]), .out(out));
+	
+endmodule
+
+// Need to check 
+module mux32_1_testbench();
+	logic [15:0] in; 
+	logic [3:0] sel;	
+	logic out;
+	
+	mux32_1 dut (.in, .sel, .out);
+	
+	integer i;
+	
+	initial begin
+		for(i=0; i<1048576; i++) begin
+			{sel, in} = i; #1000;
+		end
+	end
+endmodule

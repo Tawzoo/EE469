@@ -1,0 +1,215 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:14:12 on May 30,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv ./D_FF.sv ./EX.sv ./EX_MEM.sv ./FlagRegister.sv ./Forwarding_Unit.sv ./ID_EX.sv ./IF_ID.sv ./Instruction_Decoder.sv ./Instruction_Fetch.sv ./MEM.sv ./MEM_WB.sv ./Pipelined_CPU.sv ./WB.sv ./alu.sv ./alustim.sv ./control_unit.sv ./cpu.sv ./datamem.sv ./datapath.sv ./decoder1_2.sv ./decoder2_4.sv ./decoder3_8.sv ./decoder4_16.sv ./decoder5_32.sv ./en_reg.sv ./fullAdder.sv ./fullAdder64.sv ./fullAnd64.sv ./fullOr64.sv ./fullSubtractor.sv ./fullSubtractor64.sv ./fullXor64.sv ./instructmem.sv ./math.sv ./mux16_1.sv ./mux2_1.sv ./mux2_1_15bit.sv ./mux2_1_18bit.sv ./mux2_1_4bit.sv ./mux2_1_5bit.sv ./mux2_1_64bit.sv ./mux32_1.sv ./mux32_64.sv ./mux4_1.sv ./mux4_1_64.sv ./mux8_1.sv ./mux8_64.sv ./pc.sv ./regfile.sv ./register.sv ./sign_ext.sv ./zeroCheck.sv ./zero_ext.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module D_FF
+# -- Compiling module EX
+# -- Compiling module EX_MEM
+# -- Compiling module EX_MEM_tb
+# -- Compiling module FlagRegister
+# -- Compiling module FlagRegister_tb
+# -- Compiling module Forwarding_Unit
+# -- Compiling module ID_EX
+# -- Compiling module ID_EX_tb
+# -- Compiling module IF_ID
+# -- Compiling module IF_ID_tb
+# -- Compiling module Instruction_Decoder
+# -- Compiling module Instruction_Decoder_tb
+# -- Compiling module Instruction_Fetch
+# -- Compiling module Instruction_Fetch_tb
+# -- Compiling module MEM
+# -- Compiling module MEM_WB
+# -- Compiling module MEM_WB_tb
+# -- Compiling module Pipelined_CPU
+# -- Compiling module Pipelined_CPU_testbench
+# -- Compiling module WB
+# -- Compiling module alu
+# -- Compiling module alustim
+# -- Compiling module control_unit
+# -- Compiling module control_unit_tb
+# -- Compiling module cpu
+# -- Compiling module cpu_testbench
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module datapath
+# -- Compiling module datapath_tb
+# -- Compiling module decoder1_2
+# -- Compiling module decoder1_2_testbench
+# -- Compiling module decoder2_4
+# -- Compiling module decoder2_4_testbench
+# -- Compiling module decoder3_8
+# -- Compiling module decoder3_8_testbench
+# -- Compiling module decoder4_16
+# -- Compiling module decoder4_16_testbench
+# -- Compiling module decoder5_32
+# -- Compiling module decoder5_32_testbench
+# -- Compiling module en_reg
+# -- Compiling module en_reg_testbench
+# -- Compiling module fullAdder
+# -- Compiling module fullAdder_tb
+# -- Compiling module fullAdder64
+# -- Compiling module fullAdder64_tb
+# -- Compiling module fullAnd64
+# -- Compiling module fullAnd64_tb
+# -- Compiling module fullOr64
+# -- Compiling module fullOr64_tb
+# -- Compiling module fullSubtractor
+# -- Compiling module fullSubtractor_tb
+# -- Compiling module fullSubtractor64
+# -- Compiling module fullSubtractor64_tb
+# -- Compiling module fullXor64
+# -- Compiling module fullXor64_tb
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mux16_1
+# -- Compiling module mux16_1_testbench
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# -- Compiling module mux2_1_18bit
+# -- Compiling module mux2_1_4bit
+# -- Compiling module mux2_1_5bit
+# -- Compiling module mux2_1_64bit
+# -- Compiling module mux32_1
+# -- Compiling module mux32_1_testbench
+# -- Compiling module mux32_64
+# -- Compiling module mux32_64_testbench
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# -- Compiling module mux4_1_64
+# -- Compiling module mux8_1
+# -- Compiling module mux8_1_testbench
+# -- Compiling module mux8_64
+# -- Compiling module mux8_64_tb
+# -- Compiling module pc
+# -- Compiling module regfile
+# -- Compiling module regfile_testbench
+# -- Compiling module register
+# -- Compiling module register_testbench
+# -- Compiling module sign_ext
+# -- Compiling module sign_ext_testbench
+# -- Compiling module zeroCheck
+# -- Compiling module zeroCheck_tb
+# -- Compiling module zero_ext
+# -- Compiling module zero_ext_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	EX_MEM_tb
+# 	FlagRegister_tb
+# 	ID_EX_tb
+# 	IF_ID_tb
+# 	Instruction_Decoder_tb
+# 	Instruction_Fetch_tb
+# 	MEM_WB_tb
+# 	Pipelined_CPU_testbench
+# 	alustim
+# 	control_unit_tb
+# 	cpu_testbench
+# 	datamem_testbench
+# 	datapath_tb
+# 	decoder1_2_testbench
+# 	decoder2_4_testbench
+# 	decoder3_8_testbench
+# 	decoder4_16_testbench
+# 	decoder5_32_testbench
+# 	en_reg_testbench
+# 	fullAdder_tb
+# 	fullAdder64_tb
+# 	fullAnd64_tb
+# 	fullOr64_tb
+# 	fullSubtractor_tb
+# 	fullSubtractor64_tb
+# 	fullXor64_tb
+# 	instructmem_testbench
+# 	shifter_testbench
+# 	mult_testbench
+# 	mux16_1_testbench
+# 	mux2_1_testbench
+# 	mux2_1_18bit
+# 	mux2_1_4bit
+# 	mux32_1_testbench
+# 	mux32_64_testbench
+# 	mux4_1_testbench
+# 	mux8_1_testbench
+# 	mux8_64_tb
+# 	regfile_testbench
+# 	register_testbench
+# 	sign_ext_testbench
+# 	zeroCheck_tb
+# 	zero_ext_testbench
+# End time: 21:14:13 on May 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work Pipelined_CPU_testbench 
+# Start time: 21:14:13 on May 30,2025
+# Loading sv_std.std
+# Loading work.Pipelined_CPU_testbench
+# Loading work.Pipelined_CPU
+# Loading work.Instruction_Fetch
+# Loading work.mux2_1_64bit
+# Loading work.fullAdder64
+# Loading work.fullAdder
+# Loading work.pc
+# Loading work.instructmem
+# Loading work.IF_ID
+# Loading work.Instruction_Decoder
+# Loading work.sign_ext
+# Loading work.zero_ext
+# Loading work.control_unit
+# Loading work.mux2_1_5bit
+# Loading work.regfile
+# Loading work.decoder5_32
+# Loading work.decoder1_2
+# Loading work.decoder4_16
+# Loading work.decoder3_8
+# Loading work.decoder2_4
+# Loading work.mux32_64
+# Loading work.ID_EX
+# Loading work.en_reg
+# Loading work.mux2_1
+# Loading work.D_FF
+# Loading work.EX
+# Loading work.Forwarding_Unit
+# Loading work.mux4_1_64
+# Loading work.alu
+# Loading work.fullSubtractor64
+# Loading work.fullSubtractor
+# Loading work.fullAnd64
+# Loading work.fullOr64
+# Loading work.fullXor64
+# Loading work.mux8_64
+# Loading work.zeroCheck
+# Loading work.FlagRegister
+# Loading work.EX_MEM
+# Loading work.MEM
+# Loading work.datamem
+# Loading work.MEM_WB
+# Loading work.WB
+# Loading work.mux32_1
+# Loading work.mux16_1
+# Loading work.mux8_1
+# Loading work.mux4_1
+# Loading work.register
+# ** Warning: Design size of 15950 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: tahme  Hostname: TAWSIFS-LAPTOP  ProcessID: 16192
+#           Attempting to use alternate WLF file "./wlftg26i2j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg26i2j
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./Benchmarks/test12_Fibonacci.arm
+# ** Note: $stop    : ./Pipelined_CPU.sv(99)
+#    Time: 3035 ns  Iteration: 1  Instance: /Pipelined_CPU_testbench
+# Break in Module Pipelined_CPU_testbench at ./Pipelined_CPU.sv line 99
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/tahme/OneDrive - UW/Junior/Spring Quarter/CSE 469/Lab 4/wave.do}
