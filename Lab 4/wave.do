@@ -23,6 +23,8 @@ add wave -noupdate -radix decimal /Pipelined_CPU_testbench/dut/Memory/ALU_Result
 add wave -noupdate /Pipelined_CPU_testbench/dut/Memory/forwardC
 add wave -noupdate -divider MEM
 add wave -noupdate -radix unsigned /Pipelined_CPU_testbench/dut/Memory/ALU_FF
+add wave -noupdate /Pipelined_CPU_testbench/dut/Memory/datamemory/mem
+add wave -noupdate /Pipelined_CPU_testbench/dut/Memory/datamemory/address
 add wave -noupdate -radix binary /Pipelined_CPU_testbench/dut/Memory/MemWrite
 add wave -noupdate /Pipelined_CPU_testbench/dut/Memory/ALU_Result_in
 add wave -noupdate -radix binary /Pipelined_CPU_testbench/dut/Memory/DM_Read_Data
@@ -65,4 +67,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {1004988 ps} {3141843 ps}
+WaveRestoreZoom {1004988 ps} {1437090 ps}

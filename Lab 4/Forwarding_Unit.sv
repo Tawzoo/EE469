@@ -1,6 +1,6 @@
-module Forwarding_Unit (ID_Rn, ID_Rm, EX_Rd, MEM_Rd, EX_RegWrite, MEM_RegWrite, MEM_WB_BRLink, MEM_MemWrite, forwardA, forwardB,forwardC);
+module Forwarding_Unit (ID_Rn, ID_Rm, EX_Rd, MEM_Rd, MEM_Rt, EX_RegWrite, MEM_RegWrite, MEM_WB_BRLink, MEM_MemWrite, forwardA, forwardB,forwardC);
 
-	input logic [4:0] ID_Rn, ID_Rm, EX_Rd, MEM_Rd;
+	input logic [4:0] ID_Rn, ID_Rm, EX_Rd, MEM_Rd, MEM_Rt;
 	input logic EX_RegWrite, MEM_RegWrite, MEM_WB_BRLink, MEM_MemWrite;
 	output logic [1:0] forwardA, forwardB;
 	output logic forwardC;
@@ -33,12 +33,16 @@ module Forwarding_Unit (ID_Rn, ID_Rm, EX_Rd, MEM_Rd, EX_RegWrite, MEM_RegWrite, 
 			forwardB = 2'b00;
 		end 		
 		
-		if(MEM_MemWrite && (EX_Rd == MEM_Rd) && (EX_Rd != 5'd31)) begin
+		if(EX_RegWrite && (EX_Rd == MEM_Rt) && (EX_Rd != 5'd31)) begin
+			forwardC = 1'b1;
+		end 
+		else if (MEM_RegWrite && (MEM_Rd == MEM_Rt) && (MEM_Rd != 5'd31)) begin
 			forwardC = 1'b1;
 		end 
 		else begin 
 			forwardC = 1'b0;
 		end 
+		
 		
 		
 	end 

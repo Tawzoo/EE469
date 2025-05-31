@@ -2,12 +2,12 @@
 module EX (WB_en_in, MEM_en_in, reset, clk, SetFlag_in, MemRead_in, MemtoReg_in, MemWrite_in, RegWrite_in, BrLink_in, EX_RegWrite, MEM_WB_BRLink, MEM_RegWrite,
 				ID_Rn, ID_Rm, EX_Rd, MEM_WB_Rd, Read_Data1, Read_Data2, PC_BL_in, Imm9Ext, Imm12Ext, MEM_ALUResult, MEM_WB_ALUResult, ALUSrc, ALUOp,
 				instruction_in, SetFlag_out, MemRead_out, MemtoReg_out, MemWrite_out, RegWrite_out, BrLink_out, WB_en_out, MEM_en_out,
-				PC_BL_out, Read_Data2_out, EX_ALU_Result, ALU_Flags, Reg_Flags, EX_MEM_Rd, MEM_WB_PC_BL, forwardC, MEM_MemWrite);
+				PC_BL_out, Read_Data2_out, EX_ALU_Result, ALU_Flags, Reg_Flags, EX_MEM_Rd, MEM_WB_PC_BL, forwardC, MEM_MemWrite, WB_Write_Data);
 
 					
 	input logic WB_en_in, MEM_en_in, reset, clk, SetFlag_in, MemRead_in, MemtoReg_in, MemWrite_in, RegWrite_in, BrLink_in, EX_RegWrite, MEM_WB_BRLink, MEM_RegWrite, MEM_MemWrite;
 	input logic [4:0] ID_Rn, ID_Rm, EX_MEM_Rd, MEM_WB_Rd;
-	input logic [63:0] Read_Data1, Read_Data2, PC_BL_in, MEM_WB_PC_BL, Imm9Ext, Imm12Ext, MEM_ALUResult, MEM_WB_ALUResult;
+	input logic [63:0] Read_Data1, Read_Data2, PC_BL_in, MEM_WB_PC_BL, Imm9Ext, Imm12Ext, MEM_ALUResult, MEM_WB_ALUResult, WB_Write_Data;
 	input logic [1:0]  ALUSrc;
 	input logic [2:0]  ALUOp; 
 	input logic [31:0] instruction_in;
@@ -22,9 +22,11 @@ module EX (WB_en_in, MEM_en_in, reset, clk, SetFlag_in, MemRead_in, MemtoReg_in,
 	logic [63:0] ALU_Read_data1, forward_data, ALU_Read_data2, ALU_Result;
 	
 	// Forwarding 
-	Forwarding_Unit fwd (.ID_Rn(instruction_in[9:5]), .ID_Rm(instruction_in[20:16]), .EX_Rd(EX_MEM_Rd), .MEM_Rd(MEM_WB_Rd), .EX_RegWrite(EX_RegWrite), 
+	Forwarding_Unit fwd (.ID_Rn(instruction_in[9:5]), .ID_Rm(instruction_in[20:16]), .EX_Rd(EX_MEM_Rd), .MEM_Rd(MEM_WB_Rd), .MEM_Rt(instruction_in[4:0]), .EX_RegWrite(EX_RegWrite), 
 								.MEM_RegWrite(MEM_RegWrite), .MEM_WB_BRLink(MEM_WB_BRLink), .MEM_MemWrite(MEM_MemWrite),
 								.forwardA(forwardA), .forwardB(forwardB), .forwardC(forwardC));
+								
+	mux2_1_64bit Stur_hazard (.i0(forward_data), .i1(MEM_WB_ALUResult), .sel(forwardC), .out(Read_Data2_out));
 								
 	
 	mux4_1_64 ALU_read1 (.i3(MEM_WB_PC_BL), .i2(MEM_ALUResult), .i1(MEM_WB_ALUResult), .i0(Read_Data1), .sel(forwardA), .out(ALU_Read_data1));
@@ -44,7 +46,7 @@ module EX (WB_en_in, MEM_en_in, reset, clk, SetFlag_in, MemRead_in, MemtoReg_in,
 	assign ALU_Flags = {negative, overflow, zero, carryout};
 	assign RegWrite_out = RegWrite_in; 
 	
-	assign Read_Data2_out = forward_data;
+	//assign Read_Data2_out = forward_data;
 	assign SetFlag_out = SetFlag_in; 
 	assign MEM_en_out = MEM_en_in;
 	assign MemRead_out = MemRead_in;

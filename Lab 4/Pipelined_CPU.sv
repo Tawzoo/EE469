@@ -45,7 +45,7 @@ module Pipelined_CPU(clk, reset);
 				  .MemRead_out(ID_EX_MemRead), .MemtoReg_out(ID_EX_MemtoReg), .MemWrite_out(ID_EX_MemWrite), .RegWrite_out(ID_EX_RegWrite), .BrLink_out(ID_EX_BrLink), .ALUSrc_out(ID_EX_ALUSrc), .reset(reset), .clk(clk));
 	
 	// Execution (Done) (Read_Data2_out-> ALU_FF)
-	EX Execution (.WB_en_in(ID_EX_WB_en), .MEM_en_in(ID_EX_Mem_en), .reset(reset), .clk(clk), .SetFlag_in(ID_EX_SetFlag), .MemRead_in(ID_EX_MemRead), 
+	EX Execution (.WB_en_in(ID_EX_WB_en), .MEM_en_in(ID_EX_Mem_en), .reset(reset), .clk(clk), .SetFlag_in(ID_EX_SetFlag), .MemRead_in(ID_EX_MemRead), .WB_Write_Data(Write_Data),
 				.MemtoReg_in(ID_EX_MemtoReg), .MemWrite_in(ID_EX_MemWrite), .RegWrite_in(ID_EX_RegWrite), .BrLink_in(ID_EX_BrLink), .EX_RegWrite(EX_MEM_RegWrite), .MEM_WB_BRLink(MEM_WB_BRLink), .MEM_RegWrite(MEM_WB_RegWrite),
 				.ID_Rn(ID_Rn), .ID_Rm(ID_RM), .EX_Rd(EX_Rd), /*Ex_Rd = ID_EX_instruction[4:0]*/ .MEM_WB_Rd(MEM_WB_Rd), .Read_Data1(ID_EX_Read_data1), .Read_Data2(ID_EX_Read_data2), .PC_BL_in(ID_EX_PC_BL), .Imm9Ext(ID_EX_Imm9Ext), .Imm12Ext(ID_EX_Imm12Ext), .MEM_ALUResult(MEM_ALU_Result), .MEM_WB_ALUResult(Write_Data), .ALUSrc(ID_EX_ALUSrc), .ALUOp(ID_EX_ALUOp),
 				.instruction_in(ID_EX_instruction), .SetFlag_out(EX_SetFlag), .MemRead_out(EX_MemRead), .MemtoReg_out(EX_MemtoReg), .MemWrite_out(EX_MemWrite), .RegWrite_out(EX_RegWrite), .BrLink_out(EX_BrLink), .WB_en_out(EX_WB_en), .MEM_en_out(EX_Mem_en),
@@ -93,7 +93,7 @@ module Pipelined_CPU_testbench();
 			repeat(4) @(posedge clk);
 		reset <= 0; 
 		
-		for (i = 0; i < 300; i++) begin
+		for (i = 0; i < 1000; i++) begin
 			@(posedge clk);
 		end
 		$stop;
