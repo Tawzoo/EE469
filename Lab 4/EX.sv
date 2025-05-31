@@ -12,7 +12,8 @@ module EX (WB_en_in, MEM_en_in, reset, clk, SetFlag_in, MemRead_in, MemtoReg_in,
 	input logic [2:0]  ALUOp; 
 	input logic [31:0] instruction_in;
 	
-	output logic SetFlag_out, MemRead_out, MemtoReg_out, MemWrite_out, RegWrite_out, BrLink_out, WB_en_out, MEM_en_out, forwardC;
+	output logic SetFlag_out, MemRead_out, MemtoReg_out, MemWrite_out, RegWrite_out, BrLink_out, WB_en_out, MEM_en_out;
+	output logic [1:0] forwardC;
 	output logic [63:0] PC_BL_out, Read_Data2_out, EX_ALU_Result;
 	output logic [3:0] ALU_Flags, Reg_Flags; // ALu_flags and the one that goes into Ex.Mem regsiter
 	output logic [4:0] EX_Rd; 
@@ -26,7 +27,7 @@ module EX (WB_en_in, MEM_en_in, reset, clk, SetFlag_in, MemRead_in, MemtoReg_in,
 								.MEM_RegWrite(MEM_RegWrite), .MEM_WB_BRLink(MEM_WB_BRLink), .MEM_MemWrite(MEM_MemWrite),
 								.forwardA(forwardA), .forwardB(forwardB), .forwardC(forwardC));
 								
-	mux2_1_64bit Stur_hazard (.i0(forward_data), .i1(MEM_WB_ALUResult), .sel(forwardC), .out(Read_Data2_out));
+	mux2_1_64bit Stur_hazard (.i0(forward_data), .i1(MEM_WB_ALUResult), .sel(forwardC[1]), .out(Read_Data2_out));
 								
 	
 	mux4_1_64 ALU_read1 (.i3(MEM_WB_PC_BL), .i2(MEM_ALUResult), .i1(MEM_WB_ALUResult), .i0(Read_Data1), .sel(forwardA), .out(ALU_Read_data1));

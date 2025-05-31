@@ -2,8 +2,8 @@ module Forwarding_Unit (ID_Rn, ID_Rm, EX_Rd, MEM_Rd, MEM_Rt, EX_RegWrite, MEM_Re
 
 	input logic [4:0] ID_Rn, ID_Rm, EX_Rd, MEM_Rd, MEM_Rt;
 	input logic EX_RegWrite, MEM_RegWrite, MEM_WB_BRLink, MEM_MemWrite;
-	output logic [1:0] forwardA, forwardB;
-	output logic forwardC;
+	output logic [1:0] forwardA, forwardB, forwardC;
+	//output logic forwardC;
 	
 	always_comb begin
 		// Default	
@@ -34,13 +34,13 @@ module Forwarding_Unit (ID_Rn, ID_Rm, EX_Rd, MEM_Rd, MEM_Rt, EX_RegWrite, MEM_Re
 		end 		
 		
 		if(EX_RegWrite && (EX_Rd == MEM_Rt) && (EX_Rd != 5'd31)) begin
-			forwardC = 1'b1;
+			forwardC = 2'b10;
 		end 
 		else if (MEM_RegWrite && (MEM_Rd == MEM_Rt) && (MEM_Rd != 5'd31)) begin
-			forwardC = 1'b1;
+			forwardC = 2'b01;
 		end 
 		else begin 
-			forwardC = 1'b0;
+			forwardC = 2'b00;
 		end 
 		
 		

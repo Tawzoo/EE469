@@ -3,7 +3,8 @@ module MEM (WB_en_in, WB_en_out, MemRead, MemWrite, BrLink_in, BrLink_out, Memto
 				PC_BL_in, PC_BL_out, ALU_Result_in, /*ALU_Result_out,*/ ALU_FF, DM_Read_Data, Instruction4_0_in,
 				MEM_Rd, MEM_ALU_Result, RegWrite_in, RegWrite_out, clk, reset, forwardC, WB_Write_Data); // Need to finish this 
 					
-	input logic WB_en_in, MemRead, MemWrite, RegWrite_in, BrLink_in, MemtoReg_in, reset, clk, forwardC;
+	input logic WB_en_in, MemRead, MemWrite, RegWrite_in, BrLink_in, MemtoReg_in, reset, clk;
+	input logic [1:0] forwardC; 
 	input logic [63:0] PC_BL_in, ALU_Result_in, ALU_FF, WB_Write_Data;
 	input logic [4:0] Instruction4_0_in;
 	
@@ -13,7 +14,10 @@ module MEM (WB_en_in, WB_en_out, MemRead, MemWrite, BrLink_in, BrLink_out, Memto
 	
 	logic [63:0] DM_Write_Data;
 	
-	mux2_1_64bit write_mux (.i0(ALU_FF), .i1(WB_Write_Data), .sel(forwardC), .out(DM_Write_Data)); //Branch vs BR Address Mux
+	mux2_1_64bit write_mux (.i0(ALU_FF), .i1(WB_Write_Data), .sel(forwardC[0]), .out(DM_Write_Data)); //Branch vs BR Address Mux
+	
+	//mux4_1_64 ALU_read1 (.i3(64'bx), .i2(64'bx), .i1(WB_Write_Data), .i0(ALU_FF), .sel(forwardC), .out(DM_Write_Data));
+
 
 	
 	//Data Memory

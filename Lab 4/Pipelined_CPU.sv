@@ -7,8 +7,8 @@ module Pipelined_CPU(clk, reset);
 	logic MemtoReg, ID_EX_MemtoReg, EX_MemtoReg, EX_MEM_MemtoReg, MEM_MemtoReg, MEM_WB_MemtoReg, MemWrite, ID_EX_MemWrite, EX_MemWrite, EX_MEM_MemWrite;
 	logic RegWrite, ID_EX_RegWrite, EX_RegWrite, EX_MEM_RegWrite, MEM_RegWrite, BrLink, ID_EX_BrLink, EX_BrLink, EX_MEM_BrLink, MEM_BrLink, MEM_WB_BRLink;
 	logic WB_en, ID_EX_WB_en, EX_WB_en, EX_MEM_WB_en, MEM_WB_en, Mem_en, ID_EX_Mem_en, EX_Mem_en, EX_en, MEM_WB_RegWrite;
-	logic negative_out, zero_out, carry_out_out, overflow_out, forwardC;
-	logic [1:0] ALUSrc, ID_EX_ALUSrc;
+	logic negative_out, zero_out, carry_out_out, overflow_out;
+	logic [1:0] ALUSrc, ID_EX_ALUSrc, forwardC;
 	logic [2:0] ALUOp, ID_EX_ALUOp;
 	logic [4:0] ID_Rn, ID_RM, EX_Rd, EX_MEM_Rd, MEM_Rd, MEM_WB_Rd;         
 	
