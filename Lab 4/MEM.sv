@@ -14,9 +14,9 @@ module MEM (WB_en_in, WB_en_out, MemRead, MemWrite, BrLink_in, BrLink_out, Memto
 	
 	logic [63:0] DM_Write_Data;
 	
-	mux2_1_64bit write_mux (.i0(ALU_FF), .i1(WB_Write_Data), .sel(forwardC[0]), .out(DM_Write_Data)); //Branch vs BR Address Mux
+	//mux2_1_64bit write_mux (.i0(ALU_FF), .i1(WB_Write_Data), .sel(forwardC[1]), .out(DM_Write_Data)); 
 	
-	//mux4_1_64 ALU_read1 (.i3(64'bx), .i2(64'bx), .i1(WB_Write_Data), .i0(ALU_FF), .sel(forwardC), .out(DM_Write_Data));
+	mux4_1_64 ALU_read1 (.i3(64'bx), .i2(ALU_Result_in), .i1(WB_Write_Data), .i0(ALU_FF), .sel(forwardC), .out(DM_Write_Data));
 
 
 	

@@ -22,10 +22,10 @@ add wave -noupdate -radix decimal /Pipelined_CPU_testbench/dut/Execution/ALU_Rea
 add wave -noupdate -radix decimal /Pipelined_CPU_testbench/dut/Memory/ALU_Result_in
 add wave -noupdate /Pipelined_CPU_testbench/dut/Memory/forwardC
 add wave -noupdate /Pipelined_CPU_testbench/dut/Execution/EX_RegWrite
-add wave -noupdate /Pipelined_CPU_testbench/dut/Execution/MEM_RegWrite
-add wave -noupdate /Pipelined_CPU_testbench/dut/Execution/fwd/EX_Rd
-add wave -noupdate /Pipelined_CPU_testbench/dut/Execution/fwd/MEM_Rd
-add wave -noupdate /Pipelined_CPU_testbench/dut/Execution/fwd/MEM_Rt
+add wave -noupdate -radix unsigned /Pipelined_CPU_testbench/dut/Execution/MEM_RegWrite
+add wave -noupdate -radix unsigned /Pipelined_CPU_testbench/dut/Execution/fwd/EX_Rd
+add wave -noupdate -radix unsigned /Pipelined_CPU_testbench/dut/Execution/fwd/MEM_Rd
+add wave -noupdate -radix unsigned /Pipelined_CPU_testbench/dut/Execution/fwd/MEM_Rt
 add wave -noupdate -divider MEM
 add wave -noupdate -radix unsigned /Pipelined_CPU_testbench/dut/Memory/ALU_FF
 add wave -noupdate /Pipelined_CPU_testbench/dut/Memory/datamemory/mem
@@ -72,4 +72,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {5685744 ps} {5818912 ps}
+WaveRestoreZoom {0 ps} {8258250 ps}

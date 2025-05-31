@@ -33,10 +33,10 @@ module Forwarding_Unit (ID_Rn, ID_Rm, EX_Rd, MEM_Rd, MEM_Rt, EX_RegWrite, MEM_Re
 			forwardB = 2'b00;
 		end 		
 		
-		if(EX_RegWrite && (EX_Rd == MEM_Rt) && (EX_Rd != 5'd31)) begin
+		if(MEM_RegWrite && (MEM_Rd == MEM_Rt) && (MEM_Rd != 5'd31)) begin
 			forwardC = 2'b10;
 		end 
-		else if (MEM_RegWrite && (MEM_Rd == MEM_Rt) && (MEM_Rd != 5'd31)) begin
+		else if (MEM_RegWrite && (MEM_Rd == EX_Rd) && (MEM_Rd != 5'd31)) begin
 			forwardC = 2'b01;
 		end 
 		else begin 
