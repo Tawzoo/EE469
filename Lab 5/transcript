@@ -1,0 +1,3195 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:16:21 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 11:16:22 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:16:22 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 11:16:22 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:16:23 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 11:16:23 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:16:23 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 11:16:24 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:16:24 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 11:16:24 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 11:16:24 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Testing L1 Block Size ---
+# ** Error: Assertion error.
+#    Time: 28695 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28705 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28715 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28725 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28735 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28745 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28755 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28765 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28775 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28785 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28795 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28805 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28815 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28825 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28835 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28845 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28855 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 28865 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    1 bytes: min delay =   5, max delay =   5
+# ** Error: Assertion error.
+#    Time: 28995 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29005 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29015 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29025 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29035 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29045 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29055 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29065 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29075 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29085 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29095 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29105 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29115 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29125 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29135 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29145 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29155 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29165 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    2 bytes: min delay =   5, max delay =   5
+# ** Error: Assertion error.
+#    Time: 29295 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29305 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29315 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29325 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29335 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29345 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29415 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29425 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29435 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29445 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29455 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 29465 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    4 bytes: min delay =   5, max delay =   5
+# Stride    8 bytes: min delay =   5, max delay =  17
+# Stride   16 bytes: min delay =   5, max delay = 114
+# => Detected block size of L1 = 8 bytes
+# 
+# --- Testing L2 Block Size ---
+# ** Error: Assertion error.
+#    Time: 38665 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38675 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38685 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38695 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38705 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38715 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38725 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38735 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38745 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38755 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38765 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38775 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38785 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38795 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38805 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38815 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38825 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38835 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    1 bytes: min delay =   5, max delay =   5
+# ** Error: Assertion error.
+#    Time: 38965 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38975 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38985 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 38995 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39005 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39015 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39025 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39035 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39045 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39055 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39065 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39075 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39085 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39095 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39105 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39115 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39125 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39135 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    2 bytes: min delay =   5, max delay =   5
+# ** Error: Assertion error.
+#    Time: 39265 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39275 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39285 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39295 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39305 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39315 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39385 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39395 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39405 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39415 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39425 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 39435 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    4 bytes: min delay =   5, max delay =   5
+# Stride    8 bytes: min delay =   5, max delay =   5
+# Stride   16 bytes: min delay =   5, max delay =  17
+# Stride   32 bytes: min delay =   5, max delay =  17
+# Stride   64 bytes: min delay =   5, max delay =  17
+# Stride  128 bytes: min delay =   5, max delay = 114
+# => Detected block size of L2 = 64 bytes
+# 
+# --- Testing L3 Block Size ---
+# ** Error: Assertion error.
+#    Time: 59045 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59055 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59065 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59075 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59085 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59095 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59105 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59115 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59125 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59135 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59145 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59155 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59165 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59175 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59185 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59195 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59205 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59215 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    1 bytes: min delay =   5, max delay =   5
+# ** Error: Assertion error.
+#    Time: 59345 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59355 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59365 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59375 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59385 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59395 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59405 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59415 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59425 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59435 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59445 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59455 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59465 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59475 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59485 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59495 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59505 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59515 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    2 bytes: min delay =   5, max delay =   5
+# ** Error: Assertion error.
+#    Time: 59645 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59655 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59665 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59675 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59685 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59695 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59765 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59775 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59785 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59795 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59805 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# ** Error: Assertion error.
+#    Time: 59815 ns  Scope: lab5_testbench.dut File: ./lab5.sv Line: 47
+# Stride    4 bytes: min delay =   5, max delay =   5
+# Stride    8 bytes: min delay =   5, max delay =   5
+# Stride   16 bytes: min delay =   5, max delay =   5
+# Stride   32 bytes: min delay =   5, max delay =  17
+# Stride   64 bytes: min delay =   5, max delay =  49
+# Stride  128 bytes: min delay =   5, max delay =  49
+# Stride  256 bytes: min delay =   5, max delay =  49
+# Stride  512 bytes: min delay =   5, max delay =  49
+# Stride 1024 bytes: min delay =   5, max delay = 114
+# => Detected block size of L3 = 512 bytes
+# 
+# --- Final Detected Block Sizes ---
+# L1 Block Size: 8 bytes
+# L2 Block Size: 64 bytes
+# L3 Block Size: 512 bytes
+# ** Note: $stop    : ./lab5.sv(323)
+#    Time: 68677 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 323
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:37:08 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 11:37:08 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:37:08 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 11:37:09 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:37:09 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 11:37:10 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:37:10 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 11:37:11 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:37:11 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# ** Error (suppressible): ./lab5.sv(252): (vlog-2244) Variable 'stride_bytes' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# End time: 11:37:11 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./lab5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:17 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 11:39:17 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:18 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 11:39:18 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:19 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 11:39:19 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:19 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 11:39:20 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:20 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 11:39:20 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:39:33 on Jun 05,2025, Elapsed time: 0:23:09
+# Errors: 147, Warnings: 41
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 11:39:33 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# ** Error: (vsim-3043) ./lab5.sv(306): Unresolved reference to 'test_block_size'.
+#    Time: 0 ps  Iteration: 0  Instance: /lab5_testbench File: ./lab5.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 16
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:40:21 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 11:40:21 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:40:21 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 11:40:22 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:40:26 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 11:40:26 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:40:26 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 11:40:27 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:40:27 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 11:40:27 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 11:39:33 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Detecting L1 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Detecting L2 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Detecting L3 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# 
+# --- Final Detected Block Sizes ---
+# L1 Block Size: 8 bytes
+# L2 Block Size: 64 bytes
+# L3 Block Size: 512 bytes
+# ** Note: $stop    : ./lab5.sv(326)
+#    Time: 65977 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 326
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:13 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 11:54:13 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:13 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 11:54:14 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:14 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 11:54:15 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:15 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 11:54:15 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:15 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 11:54:16 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:54:24 on Jun 05,2025, Elapsed time: 0:14:51
+# Errors: 1, Warnings: 21
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 11:54:24 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Detecting L1 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Detecting L2 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Detecting L3 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# 
+# --- Final Detected Block Sizes ---
+# L1 Block Size: 8 bytes
+# L2 Block Size: 64 bytes
+# L3 Block Size: 512 bytes
+# ** Note: $stop    : ./lab5.sv(326)
+#    Time: 65977 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 326
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 11:54:57 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:57 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 11:54:57 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:58 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 11:54:58 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:58 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 11:54:59 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:59 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 11:54:59 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:55:13 on Jun 05,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 21
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 11:55:13 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Detecting L1 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Detecting L2 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Detecting L3 Cache Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# ** Note: $stop    : ./lab5.sv(321)
+#    Time: 65977 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 321
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:13:55 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:13:56 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:13:56 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:13:56 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:13:57 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:13:57 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:13:57 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:13:58 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:13:58 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# ** Error: (vlog-13069) ./lab5.sv(283): near "int": syntax error, unexpected "SystemVerilog keyword 'int'", expecting ';'.
+# ** Error: ./lab5.sv(286): Illegal declaration after the statement near line '283'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./lab5.sv(290): (vlog-2730) Undefined variable: 'i'.
+# ** Error: ./lab5.sv(298): (vlog-2730) Undefined variable: 'delay'.
+# End time: 12:13:58 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./lab5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:24 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:34:24 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:24 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:34:25 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:25 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:34:26 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:26 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:34:26 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:27 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# ** Error: ./lab5.sv(360): (vlog-13266) No actual value has been specified for a formal argument 'min_delay' that does not have a default value.
+# ** Error: ./lab5.sv(360): Number of actuals and formals does not match in task call.
+# ** Error: ./lab5.sv(367): Illegal task output argument.
+# End time: 12:34:27 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./lab5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:35:10 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:35:10 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:35:10 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:35:11 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:35:12 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:35:12 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:35:12 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:35:13 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:35:13 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# ** Error: ./lab5.sv(359): (vlog-13266) No actual value has been specified for a formal argument 'min_delay' that does not have a default value.
+# ** Error: ./lab5.sv(359): Number of actuals and formals does not match in task call.
+# ** Error: ./lab5.sv(366): Illegal task output argument.
+# End time: 12:35:13 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./lab5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:03 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:36:03 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:03 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:36:04 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:04 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:36:05 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:05 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:36:06 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:06 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 12:36:06 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:36:22 on Jun 05,2025, Elapsed time: 0:41:09
+# Errors: 19, Warnings: 81
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 12:36:22 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Test L1 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Test L2 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Test L3 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# 
+# --- Test L1 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 5
+# Accessed 6 blocks, re-access delay: 5
+# Accessed 7 blocks, re-access delay: 5
+# Accessed 8 blocks, re-access delay: 5
+# Accessed 9 blocks, re-access delay: 5
+# Accessed 10 blocks, re-access delay: 5
+# Accessed 11 blocks, re-access delay: 5
+# Accessed 12 blocks, re-access delay: 5
+# Accessed 13 blocks, re-access delay: 5
+# Accessed 14 blocks, re-access delay: 5
+# Accessed 15 blocks, re-access delay: 5
+# Accessed 16 blocks, re-access delay: 5
+# Accessed 17 blocks, re-access delay: 17
+# Accessed 18 blocks, re-access delay: 17
+# Accessed 19 blocks, re-access delay: 17
+# Accessed 20 blocks, re-access delay: 17
+# Accessed 21 blocks, re-access delay: 17
+# Accessed 22 blocks, re-access delay: 17
+# Accessed 23 blocks, re-access delay: 17
+# Accessed 24 blocks, re-access delay: 17
+# Accessed 25 blocks, re-access delay: 17
+# Accessed 26 blocks, re-access delay: 17
+# Accessed 27 blocks, re-access delay: 17
+# Accessed 28 blocks, re-access delay: 17
+# Accessed 29 blocks, re-access delay: 17
+# Accessed 30 blocks, re-access delay: 17
+# Accessed 31 blocks, re-access delay: 17
+# Accessed 32 blocks, re-access delay: 17
+# Accessed 33 blocks, re-access delay: 17
+# Accessed 34 blocks, re-access delay: 17
+# Accessed 35 blocks, re-access delay: 17
+# Accessed 36 blocks, re-access delay: 17
+# Accessed 37 blocks, re-access delay: 17
+# Accessed 38 blocks, re-access delay: 17
+# Accessed 39 blocks, re-access delay: 17
+# Accessed 40 blocks, re-access delay: 17
+# Accessed 41 blocks, re-access delay: 17
+# Accessed 42 blocks, re-access delay: 17
+# Accessed 43 blocks, re-access delay: 17
+# Accessed 44 blocks, re-access delay: 17
+# Accessed 45 blocks, re-access delay: 17
+# Accessed 46 blocks, re-access delay: 17
+# Accessed 47 blocks, re-access delay: 17
+# Accessed 48 blocks, re-access delay: 17
+# Accessed 49 blocks, re-access delay: 17
+# Accessed 50 blocks, re-access delay: 17
+# Accessed 51 blocks, re-access delay: 17
+# Accessed 52 blocks, re-access delay: 17
+# Accessed 53 blocks, re-access delay: 17
+# Accessed 54 blocks, re-access delay: 17
+# Accessed 55 blocks, re-access delay: 17
+# Accessed 56 blocks, re-access delay: 17
+# Accessed 57 blocks, re-access delay: 17
+# Accessed 58 blocks, re-access delay: 17
+# Accessed 59 blocks, re-access delay: 17
+# Accessed 60 blocks, re-access delay: 17
+# Accessed 61 blocks, re-access delay: 17
+# Accessed 62 blocks, re-access delay: 17
+# Accessed 63 blocks, re-access delay: 17
+# Accessed 64 blocks, re-access delay: 17
+# Accessed 65 blocks, re-access delay: 17
+# Accessed 66 blocks, re-access delay: 17
+# Accessed 67 blocks, re-access delay: 17
+# Accessed 68 blocks, re-access delay: 17
+# Accessed 69 blocks, re-access delay: 17
+# Accessed 70 blocks, re-access delay: 17
+# Accessed 71 blocks, re-access delay: 17
+# Accessed 72 blocks, re-access delay: 17
+# Accessed 73 blocks, re-access delay: 17
+# Accessed 74 blocks, re-access delay: 17
+# Accessed 75 blocks, re-access delay: 17
+# Accessed 76 blocks, re-access delay: 17
+# Accessed 77 blocks, re-access delay: 17
+# Accessed 78 blocks, re-access delay: 17
+# Accessed 79 blocks, re-access delay: 17
+# Accessed 80 blocks, re-access delay: 17
+# Accessed 81 blocks, re-access delay: 17
+# Accessed 82 blocks, re-access delay: 17
+# Accessed 83 blocks, re-access delay: 17
+# Accessed 84 blocks, re-access delay: 17
+# Accessed 85 blocks, re-access delay: 17
+# Accessed 86 blocks, re-access delay: 17
+# Accessed 87 blocks, re-access delay: 17
+# Accessed 88 blocks, re-access delay: 17
+# Accessed 89 blocks, re-access delay: 17
+# Accessed 90 blocks, re-access delay: 17
+# Accessed 91 blocks, re-access delay: 17
+# Accessed 92 blocks, re-access delay: 17
+# Accessed 93 blocks, re-access delay: 17
+# Accessed 94 blocks, re-access delay: 17
+# Accessed 95 blocks, re-access delay: 17
+# Accessed 96 blocks, re-access delay: 17
+# Accessed 97 blocks, re-access delay: 17
+# Accessed 98 blocks, re-access delay: 17
+# Accessed 99 blocks, re-access delay: 17
+# Accessed 100 blocks, re-access delay: 17
+# Accessed 101 blocks, re-access delay: 17
+# Accessed 102 blocks, re-access delay: 17
+# Accessed 103 blocks, re-access delay: 17
+# Accessed 104 blocks, re-access delay: 17
+# Accessed 105 blocks, re-access delay: 17
+# Accessed 106 blocks, re-access delay: 17
+# Accessed 107 blocks, re-access delay: 17
+# Accessed 108 blocks, re-access delay: 17
+# Accessed 109 blocks, re-access delay: 17
+# Accessed 110 blocks, re-access delay: 17
+# Accessed 111 blocks, re-access delay: 17
+# Accessed 112 blocks, re-access delay: 17
+# Accessed 113 blocks, re-access delay: 17
+# Accessed 114 blocks, re-access delay: 17
+# Accessed 115 blocks, re-access delay: 17
+# Accessed 116 blocks, re-access delay: 17
+# Accessed 117 blocks, re-access delay: 17
+# Accessed 118 blocks, re-access delay: 17
+# Accessed 119 blocks, re-access delay: 17
+# Accessed 120 blocks, re-access delay: 17
+# Accessed 121 blocks, re-access delay: 17
+# Accessed 122 blocks, re-access delay: 17
+# Accessed 123 blocks, re-access delay: 17
+# Accessed 124 blocks, re-access delay: 17
+# Accessed 125 blocks, re-access delay: 17
+# Accessed 126 blocks, re-access delay: 17
+# Accessed 127 blocks, re-access delay: 17
+# Accessed 128 blocks, re-access delay: 17
+# Accessed 129 blocks, re-access delay: 49
+# Accessed 130 blocks, re-access delay: 49
+# Accessed 131 blocks, re-access delay: 49
+# Accessed 132 blocks, re-access delay: 49
+# Accessed 133 blocks, re-access delay: 49
+# Accessed 134 blocks, re-access delay: 49
+# Accessed 135 blocks, re-access delay: 49
+# Accessed 136 blocks, re-access delay: 49
+# Accessed 137 blocks, re-access delay: 49
+# Accessed 138 blocks, re-access delay: 49
+# Accessed 139 blocks, re-access delay: 49
+# Accessed 140 blocks, re-access delay: 49
+# Accessed 141 blocks, re-access delay: 49
+# Accessed 142 blocks, re-access delay: 49
+# Accessed 143 blocks, re-access delay: 49
+# Accessed 144 blocks, re-access delay: 49
+# Accessed 145 blocks, re-access delay: 49
+# Accessed 146 blocks, re-access delay: 49
+# Accessed 147 blocks, re-access delay: 49
+# Accessed 148 blocks, re-access delay: 49
+# Accessed 149 blocks, re-access delay: 49
+# Accessed 150 blocks, re-access delay: 49
+# Accessed 151 blocks, re-access delay: 49
+# Accessed 152 blocks, re-access delay: 49
+# Accessed 153 blocks, re-access delay: 49
+# Accessed 154 blocks, re-access delay: 49
+# Accessed 155 blocks, re-access delay: 49
+# Accessed 156 blocks, re-access delay: 49
+# Accessed 157 blocks, re-access delay: 49
+# Accessed 158 blocks, re-access delay: 49
+# Accessed 159 blocks, re-access delay: 49
+# Accessed 160 blocks, re-access delay: 49
+# Accessed 161 blocks, re-access delay: 49
+# Accessed 162 blocks, re-access delay: 49
+# Accessed 163 blocks, re-access delay: 49
+# Accessed 164 blocks, re-access delay: 49
+# Accessed 165 blocks, re-access delay: 49
+# Accessed 166 blocks, re-access delay: 49
+# Accessed 167 blocks, re-access delay: 49
+# Accessed 168 blocks, re-access delay: 49
+# Accessed 169 blocks, re-access delay: 49
+# Accessed 170 blocks, re-access delay: 49
+# Accessed 171 blocks, re-access delay: 49
+# Accessed 172 blocks, re-access delay: 49
+# Accessed 173 blocks, re-access delay: 49
+# Accessed 174 blocks, re-access delay: 49
+# Accessed 175 blocks, re-access delay: 49
+# Accessed 176 blocks, re-access delay: 49
+# Accessed 177 blocks, re-access delay: 49
+# Accessed 178 blocks, re-access delay: 49
+# Accessed 179 blocks, re-access delay: 49
+# Accessed 180 blocks, re-access delay: 49
+# Accessed 181 blocks, re-access delay: 49
+# Accessed 182 blocks, re-access delay: 49
+# Accessed 183 blocks, re-access delay: 49
+# Accessed 184 blocks, re-access delay: 49
+# Accessed 185 blocks, re-access delay: 49
+# Accessed 186 blocks, re-access delay: 49
+# Accessed 187 blocks, re-access delay: 49
+# Accessed 188 blocks, re-access delay: 49
+# Accessed 189 blocks, re-access delay: 49
+# Accessed 190 blocks, re-access delay: 49
+# Accessed 191 blocks, re-access delay: 49
+# Accessed 192 blocks, re-access delay: 49
+# Accessed 193 blocks, re-access delay: 49
+# Accessed 194 blocks, re-access delay: 49
+# Accessed 195 blocks, re-access delay: 49
+# Accessed 196 blocks, re-access delay: 49
+# Accessed 197 blocks, re-access delay: 49
+# Accessed 198 blocks, re-access delay: 49
+# Accessed 199 blocks, re-access delay: 49
+# Accessed 200 blocks, re-access delay: 49
+# Accessed 201 blocks, re-access delay: 49
+# Accessed 202 blocks, re-access delay: 49
+# Accessed 203 blocks, re-access delay: 49
+# Accessed 204 blocks, re-access delay: 49
+# Accessed 205 blocks, re-access delay: 49
+# Accessed 206 blocks, re-access delay: 49
+# Accessed 207 blocks, re-access delay: 49
+# Accessed 208 blocks, re-access delay: 49
+# Accessed 209 blocks, re-access delay: 49
+# Accessed 210 blocks, re-access delay: 49
+# Accessed 211 blocks, re-access delay: 49
+# Accessed 212 blocks, re-access delay: 49
+# Accessed 213 blocks, re-access delay: 49
+# Accessed 214 blocks, re-access delay: 49
+# Accessed 215 blocks, re-access delay: 49
+# Accessed 216 blocks, re-access delay: 49
+# Accessed 217 blocks, re-access delay: 49
+# Accessed 218 blocks, re-access delay: 49
+# Accessed 219 blocks, re-access delay: 49
+# Accessed 220 blocks, re-access delay: 49
+# Accessed 221 blocks, re-access delay: 49
+# Accessed 222 blocks, re-access delay: 49
+# Accessed 223 blocks, re-access delay: 49
+# Accessed 224 blocks, re-access delay: 49
+# Accessed 225 blocks, re-access delay: 49
+# Accessed 226 blocks, re-access delay: 49
+# Accessed 227 blocks, re-access delay: 49
+# Accessed 228 blocks, re-access delay: 49
+# Accessed 229 blocks, re-access delay: 49
+# Accessed 230 blocks, re-access delay: 49
+# Accessed 231 blocks, re-access delay: 49
+# Accessed 232 blocks, re-access delay: 49
+# Accessed 233 blocks, re-access delay: 49
+# Accessed 234 blocks, re-access delay: 49
+# Accessed 235 blocks, re-access delay: 49
+# Accessed 236 blocks, re-access delay: 49
+# Accessed 237 blocks, re-access delay: 49
+# Accessed 238 blocks, re-access delay: 49
+# Accessed 239 blocks, re-access delay: 49
+# Accessed 240 blocks, re-access delay: 49
+# Accessed 241 blocks, re-access delay: 49
+# Accessed 242 blocks, re-access delay: 49
+# Accessed 243 blocks, re-access delay: 49
+# Accessed 244 blocks, re-access delay: 49
+# Accessed 245 blocks, re-access delay: 49
+# Accessed 246 blocks, re-access delay: 49
+# Accessed 247 blocks, re-access delay: 49
+# Accessed 248 blocks, re-access delay: 49
+# Accessed 249 blocks, re-access delay: 49
+# Accessed 250 blocks, re-access delay: 49
+# Accessed 251 blocks, re-access delay: 49
+# Accessed 252 blocks, re-access delay: 49
+# Accessed 253 blocks, re-access delay: 49
+# Accessed 254 blocks, re-access delay: 49
+# Accessed 255 blocks, re-access delay: 49
+# Accessed 256 blocks, re-access delay: 49
+# 
+# --- Test L2 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 17
+# Accessed 6 blocks, re-access delay: 17
+# Accessed 7 blocks, re-access delay: 17
+# Accessed 8 blocks, re-access delay: 17
+# Accessed 9 blocks, re-access delay: 17
+# Accessed 10 blocks, re-access delay: 17
+# Accessed 11 blocks, re-access delay: 17
+# Accessed 12 blocks, re-access delay: 17
+# Accessed 13 blocks, re-access delay: 17
+# Accessed 14 blocks, re-access delay: 17
+# Accessed 15 blocks, re-access delay: 17
+# Accessed 16 blocks, re-access delay: 17
+# Accessed 17 blocks, re-access delay: 17
+# Accessed 18 blocks, re-access delay: 17
+# Accessed 19 blocks, re-access delay: 17
+# Accessed 20 blocks, re-access delay: 17
+# Accessed 21 blocks, re-access delay: 17
+# Accessed 22 blocks, re-access delay: 17
+# Accessed 23 blocks, re-access delay: 17
+# Accessed 24 blocks, re-access delay: 17
+# Accessed 25 blocks, re-access delay: 17
+# Accessed 26 blocks, re-access delay: 17
+# Accessed 27 blocks, re-access delay: 17
+# Accessed 28 blocks, re-access delay: 17
+# Accessed 29 blocks, re-access delay: 17
+# Accessed 30 blocks, re-access delay: 17
+# Accessed 31 blocks, re-access delay: 17
+# Accessed 32 blocks, re-access delay: 17
+# Accessed 33 blocks, re-access delay: 49
+# Accessed 34 blocks, re-access delay: 49
+# Accessed 35 blocks, re-access delay: 49
+# Accessed 36 blocks, re-access delay: 49
+# Accessed 37 blocks, re-access delay: 49
+# Accessed 38 blocks, re-access delay: 49
+# Accessed 39 blocks, re-access delay: 49
+# Accessed 40 blocks, re-access delay: 49
+# Accessed 41 blocks, re-access delay: 49
+# Accessed 42 blocks, re-access delay: 49
+# Accessed 43 blocks, re-access delay: 49
+# Accessed 44 blocks, re-access delay: 49
+# Accessed 45 blocks, re-access delay: 49
+# Accessed 46 blocks, re-access delay: 49
+# Accessed 47 blocks, re-access delay: 49
+# Accessed 48 blocks, re-access delay: 49
+# Accessed 49 blocks, re-access delay: 49
+# Accessed 50 blocks, re-access delay: 49
+# Accessed 51 blocks, re-access delay: 49
+# Accessed 52 blocks, re-access delay: 49
+# Accessed 53 blocks, re-access delay: 49
+# Accessed 54 blocks, re-access delay: 49
+# Accessed 55 blocks, re-access delay: 49
+# Accessed 56 blocks, re-access delay: 49
+# Accessed 57 blocks, re-access delay: 49
+# Accessed 58 blocks, re-access delay: 49
+# Accessed 59 blocks, re-access delay: 49
+# Accessed 60 blocks, re-access delay: 49
+# Accessed 61 blocks, re-access delay: 49
+# Accessed 62 blocks, re-access delay: 49
+# Accessed 63 blocks, re-access delay: 49
+# Accessed 64 blocks, re-access delay: 49
+# Accessed 65 blocks, re-access delay: 49
+# Accessed 66 blocks, re-access delay: 49
+# Accessed 67 blocks, re-access delay: 49
+# Accessed 68 blocks, re-access delay: 49
+# Accessed 69 blocks, re-access delay: 49
+# Accessed 70 blocks, re-access delay: 49
+# Accessed 71 blocks, re-access delay: 49
+# Accessed 72 blocks, re-access delay: 49
+# Accessed 73 blocks, re-access delay: 49
+# Accessed 74 blocks, re-access delay: 49
+# Accessed 75 blocks, re-access delay: 49
+# Accessed 76 blocks, re-access delay: 49
+# Accessed 77 blocks, re-access delay: 49
+# Accessed 78 blocks, re-access delay: 49
+# Accessed 79 blocks, re-access delay: 49
+# Accessed 80 blocks, re-access delay: 49
+# Accessed 81 blocks, re-access delay: 49
+# Accessed 82 blocks, re-access delay: 49
+# Accessed 83 blocks, re-access delay: 49
+# Accessed 84 blocks, re-access delay: 49
+# Accessed 85 blocks, re-access delay: 49
+# Accessed 86 blocks, re-access delay: 49
+# Accessed 87 blocks, re-access delay: 49
+# Accessed 88 blocks, re-access delay: 49
+# Accessed 89 blocks, re-access delay: 49
+# Accessed 90 blocks, re-access delay: 49
+# Accessed 91 blocks, re-access delay: 49
+# Accessed 92 blocks, re-access delay: 49
+# Accessed 93 blocks, re-access delay: 49
+# Accessed 94 blocks, re-access delay: 49
+# Accessed 95 blocks, re-access delay: 49
+# Accessed 96 blocks, re-access delay: 49
+# Accessed 97 blocks, re-access delay: 49
+# Accessed 98 blocks, re-access delay: 49
+# Accessed 99 blocks, re-access delay: 49
+# Accessed 100 blocks, re-access delay: 49
+# Accessed 101 blocks, re-access delay: 49
+# Accessed 102 blocks, re-access delay: 49
+# Accessed 103 blocks, re-access delay: 49
+# Accessed 104 blocks, re-access delay: 49
+# Accessed 105 blocks, re-access delay: 49
+# Accessed 106 blocks, re-access delay: 49
+# Accessed 107 blocks, re-access delay: 49
+# Accessed 108 blocks, re-access delay: 49
+# Accessed 109 blocks, re-access delay: 49
+# Accessed 110 blocks, re-access delay: 49
+# Accessed 111 blocks, re-access delay: 49
+# Accessed 112 blocks, re-access delay: 49
+# Accessed 113 blocks, re-access delay: 49
+# Accessed 114 blocks, re-access delay: 49
+# Accessed 115 blocks, re-access delay: 49
+# Accessed 116 blocks, re-access delay: 49
+# Accessed 117 blocks, re-access delay: 49
+# Accessed 118 blocks, re-access delay: 49
+# Accessed 119 blocks, re-access delay: 49
+# Accessed 120 blocks, re-access delay: 49
+# Accessed 121 blocks, re-access delay: 49
+# Accessed 122 blocks, re-access delay: 49
+# Accessed 123 blocks, re-access delay: 49
+# Accessed 124 blocks, re-access delay: 49
+# Accessed 125 blocks, re-access delay: 49
+# Accessed 126 blocks, re-access delay: 49
+# Accessed 127 blocks, re-access delay: 49
+# Accessed 128 blocks, re-access delay: 49
+# Accessed 129 blocks, re-access delay: 114
+# => Detected L2 Cache: Num of Block = 128 blocks
+# 
+# --- Test L3 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 17
+# Accessed 3 blocks, re-access delay: 17
+# Accessed 4 blocks, re-access delay: 17
+# Accessed 5 blocks, re-access delay: 49
+# Accessed 6 blocks, re-access delay: 49
+# Accessed 7 blocks, re-access delay: 49
+# Accessed 8 blocks, re-access delay: 49
+# Accessed 9 blocks, re-access delay: 114
+# => Detected L3 Cache: Num of Block = 8 blocks
+# ** Note: $stop    : ./lab5.sv(363)
+#    Time: 10072887 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 363
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:31 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:42:32 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:32 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:42:32 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:32 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:42:33 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:33 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:42:34 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:34 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 12:42:34 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:43:02 on Jun 05,2025, Elapsed time: 0:06:40
+# Errors: 0, Warnings: 21
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 12:43:02 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Test L1 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Test L2 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Test L3 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# 
+# --- Test L1 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 5
+# Accessed 6 blocks, re-access delay: 5
+# Accessed 7 blocks, re-access delay: 5
+# Accessed 8 blocks, re-access delay: 5
+# Accessed 9 blocks, re-access delay: 5
+# Accessed 10 blocks, re-access delay: 5
+# Accessed 11 blocks, re-access delay: 5
+# Accessed 12 blocks, re-access delay: 5
+# Accessed 13 blocks, re-access delay: 5
+# Accessed 14 blocks, re-access delay: 5
+# Accessed 15 blocks, re-access delay: 5
+# Accessed 16 blocks, re-access delay: 5
+# Accessed 17 blocks, re-access delay: 17
+# Accessed 18 blocks, re-access delay: 17
+# Accessed 19 blocks, re-access delay: 17
+# Accessed 20 blocks, re-access delay: 17
+# Accessed 21 blocks, re-access delay: 17
+# Accessed 22 blocks, re-access delay: 17
+# Accessed 23 blocks, re-access delay: 17
+# Accessed 24 blocks, re-access delay: 17
+# Accessed 25 blocks, re-access delay: 17
+# Accessed 26 blocks, re-access delay: 17
+# Accessed 27 blocks, re-access delay: 17
+# Accessed 28 blocks, re-access delay: 17
+# Accessed 29 blocks, re-access delay: 17
+# Accessed 30 blocks, re-access delay: 17
+# Accessed 31 blocks, re-access delay: 17
+# Accessed 32 blocks, re-access delay: 17
+# Accessed 33 blocks, re-access delay: 17
+# Accessed 34 blocks, re-access delay: 17
+# Accessed 35 blocks, re-access delay: 17
+# Accessed 36 blocks, re-access delay: 17
+# Accessed 37 blocks, re-access delay: 17
+# Accessed 38 blocks, re-access delay: 17
+# Accessed 39 blocks, re-access delay: 17
+# Accessed 40 blocks, re-access delay: 17
+# Accessed 41 blocks, re-access delay: 17
+# Accessed 42 blocks, re-access delay: 17
+# Accessed 43 blocks, re-access delay: 17
+# Accessed 44 blocks, re-access delay: 17
+# Accessed 45 blocks, re-access delay: 17
+# Accessed 46 blocks, re-access delay: 17
+# Accessed 47 blocks, re-access delay: 17
+# Accessed 48 blocks, re-access delay: 17
+# Accessed 49 blocks, re-access delay: 17
+# Accessed 50 blocks, re-access delay: 17
+# Accessed 51 blocks, re-access delay: 17
+# Accessed 52 blocks, re-access delay: 17
+# Accessed 53 blocks, re-access delay: 17
+# Accessed 54 blocks, re-access delay: 17
+# Accessed 55 blocks, re-access delay: 17
+# Accessed 56 blocks, re-access delay: 17
+# Accessed 57 blocks, re-access delay: 17
+# Accessed 58 blocks, re-access delay: 17
+# Accessed 59 blocks, re-access delay: 17
+# Accessed 60 blocks, re-access delay: 17
+# Accessed 61 blocks, re-access delay: 17
+# Accessed 62 blocks, re-access delay: 17
+# Accessed 63 blocks, re-access delay: 17
+# Accessed 64 blocks, re-access delay: 17
+# Accessed 65 blocks, re-access delay: 17
+# Accessed 66 blocks, re-access delay: 17
+# Accessed 67 blocks, re-access delay: 17
+# Accessed 68 blocks, re-access delay: 17
+# Accessed 69 blocks, re-access delay: 17
+# Accessed 70 blocks, re-access delay: 17
+# Accessed 71 blocks, re-access delay: 17
+# Accessed 72 blocks, re-access delay: 17
+# Accessed 73 blocks, re-access delay: 17
+# Accessed 74 blocks, re-access delay: 17
+# Accessed 75 blocks, re-access delay: 17
+# Accessed 76 blocks, re-access delay: 17
+# Accessed 77 blocks, re-access delay: 17
+# Accessed 78 blocks, re-access delay: 17
+# Accessed 79 blocks, re-access delay: 17
+# Accessed 80 blocks, re-access delay: 17
+# Accessed 81 blocks, re-access delay: 17
+# Accessed 82 blocks, re-access delay: 17
+# Accessed 83 blocks, re-access delay: 17
+# Accessed 84 blocks, re-access delay: 17
+# Accessed 85 blocks, re-access delay: 17
+# Accessed 86 blocks, re-access delay: 17
+# Accessed 87 blocks, re-access delay: 17
+# Accessed 88 blocks, re-access delay: 17
+# Accessed 89 blocks, re-access delay: 17
+# Accessed 90 blocks, re-access delay: 17
+# Accessed 91 blocks, re-access delay: 17
+# Accessed 92 blocks, re-access delay: 17
+# Accessed 93 blocks, re-access delay: 17
+# Accessed 94 blocks, re-access delay: 17
+# Accessed 95 blocks, re-access delay: 17
+# Accessed 96 blocks, re-access delay: 17
+# Accessed 97 blocks, re-access delay: 17
+# Accessed 98 blocks, re-access delay: 17
+# Accessed 99 blocks, re-access delay: 17
+# Accessed 100 blocks, re-access delay: 17
+# Accessed 101 blocks, re-access delay: 17
+# Accessed 102 blocks, re-access delay: 17
+# Accessed 103 blocks, re-access delay: 17
+# Accessed 104 blocks, re-access delay: 17
+# Accessed 105 blocks, re-access delay: 17
+# Accessed 106 blocks, re-access delay: 17
+# Accessed 107 blocks, re-access delay: 17
+# Accessed 108 blocks, re-access delay: 17
+# Accessed 109 blocks, re-access delay: 17
+# Accessed 110 blocks, re-access delay: 17
+# Accessed 111 blocks, re-access delay: 17
+# Accessed 112 blocks, re-access delay: 17
+# Accessed 113 blocks, re-access delay: 17
+# Accessed 114 blocks, re-access delay: 17
+# Accessed 115 blocks, re-access delay: 17
+# Accessed 116 blocks, re-access delay: 17
+# Accessed 117 blocks, re-access delay: 17
+# Accessed 118 blocks, re-access delay: 17
+# Accessed 119 blocks, re-access delay: 17
+# Accessed 120 blocks, re-access delay: 17
+# Accessed 121 blocks, re-access delay: 17
+# Accessed 122 blocks, re-access delay: 17
+# Accessed 123 blocks, re-access delay: 17
+# Accessed 124 blocks, re-access delay: 17
+# Accessed 125 blocks, re-access delay: 17
+# Accessed 126 blocks, re-access delay: 17
+# Accessed 127 blocks, re-access delay: 17
+# Accessed 128 blocks, re-access delay: 17
+# Accessed 129 blocks, re-access delay: 49
+# Accessed 130 blocks, re-access delay: 49
+# Accessed 131 blocks, re-access delay: 49
+# Accessed 132 blocks, re-access delay: 49
+# Accessed 133 blocks, re-access delay: 49
+# Accessed 134 blocks, re-access delay: 49
+# Accessed 135 blocks, re-access delay: 49
+# Accessed 136 blocks, re-access delay: 49
+# Accessed 137 blocks, re-access delay: 49
+# Accessed 138 blocks, re-access delay: 49
+# Accessed 139 blocks, re-access delay: 49
+# Accessed 140 blocks, re-access delay: 49
+# Accessed 141 blocks, re-access delay: 49
+# Accessed 142 blocks, re-access delay: 49
+# Accessed 143 blocks, re-access delay: 49
+# Accessed 144 blocks, re-access delay: 49
+# Accessed 145 blocks, re-access delay: 49
+# Accessed 146 blocks, re-access delay: 49
+# Accessed 147 blocks, re-access delay: 49
+# Accessed 148 blocks, re-access delay: 49
+# Accessed 149 blocks, re-access delay: 49
+# Accessed 150 blocks, re-access delay: 49
+# Accessed 151 blocks, re-access delay: 49
+# Accessed 152 blocks, re-access delay: 49
+# Accessed 153 blocks, re-access delay: 49
+# Accessed 154 blocks, re-access delay: 49
+# Accessed 155 blocks, re-access delay: 49
+# Accessed 156 blocks, re-access delay: 49
+# Accessed 157 blocks, re-access delay: 49
+# Accessed 158 blocks, re-access delay: 49
+# Accessed 159 blocks, re-access delay: 49
+# Accessed 160 blocks, re-access delay: 49
+# Accessed 161 blocks, re-access delay: 49
+# Accessed 162 blocks, re-access delay: 49
+# Accessed 163 blocks, re-access delay: 49
+# Accessed 164 blocks, re-access delay: 49
+# Accessed 165 blocks, re-access delay: 49
+# Accessed 166 blocks, re-access delay: 49
+# Accessed 167 blocks, re-access delay: 49
+# Accessed 168 blocks, re-access delay: 49
+# Accessed 169 blocks, re-access delay: 49
+# Accessed 170 blocks, re-access delay: 49
+# Accessed 171 blocks, re-access delay: 49
+# Accessed 172 blocks, re-access delay: 49
+# Accessed 173 blocks, re-access delay: 49
+# Accessed 174 blocks, re-access delay: 49
+# Accessed 175 blocks, re-access delay: 49
+# Accessed 176 blocks, re-access delay: 49
+# Accessed 177 blocks, re-access delay: 49
+# Accessed 178 blocks, re-access delay: 49
+# Accessed 179 blocks, re-access delay: 49
+# Accessed 180 blocks, re-access delay: 49
+# Accessed 181 blocks, re-access delay: 49
+# Accessed 182 blocks, re-access delay: 49
+# Accessed 183 blocks, re-access delay: 49
+# Accessed 184 blocks, re-access delay: 49
+# Accessed 185 blocks, re-access delay: 49
+# Accessed 186 blocks, re-access delay: 49
+# Accessed 187 blocks, re-access delay: 49
+# Accessed 188 blocks, re-access delay: 49
+# Accessed 189 blocks, re-access delay: 49
+# Accessed 190 blocks, re-access delay: 49
+# Accessed 191 blocks, re-access delay: 49
+# Accessed 192 blocks, re-access delay: 49
+# Accessed 193 blocks, re-access delay: 49
+# Accessed 194 blocks, re-access delay: 49
+# Accessed 195 blocks, re-access delay: 49
+# Accessed 196 blocks, re-access delay: 49
+# Accessed 197 blocks, re-access delay: 49
+# Accessed 198 blocks, re-access delay: 49
+# Accessed 199 blocks, re-access delay: 49
+# Accessed 200 blocks, re-access delay: 49
+# Accessed 201 blocks, re-access delay: 49
+# Accessed 202 blocks, re-access delay: 49
+# Accessed 203 blocks, re-access delay: 49
+# Accessed 204 blocks, re-access delay: 49
+# Accessed 205 blocks, re-access delay: 49
+# Accessed 206 blocks, re-access delay: 49
+# Accessed 207 blocks, re-access delay: 49
+# Accessed 208 blocks, re-access delay: 49
+# Accessed 209 blocks, re-access delay: 49
+# Accessed 210 blocks, re-access delay: 49
+# Accessed 211 blocks, re-access delay: 49
+# Accessed 212 blocks, re-access delay: 49
+# Accessed 213 blocks, re-access delay: 49
+# Accessed 214 blocks, re-access delay: 49
+# Accessed 215 blocks, re-access delay: 49
+# Accessed 216 blocks, re-access delay: 49
+# Accessed 217 blocks, re-access delay: 49
+# Accessed 218 blocks, re-access delay: 49
+# Accessed 219 blocks, re-access delay: 49
+# Accessed 220 blocks, re-access delay: 49
+# Accessed 221 blocks, re-access delay: 49
+# Accessed 222 blocks, re-access delay: 49
+# Accessed 223 blocks, re-access delay: 49
+# Accessed 224 blocks, re-access delay: 49
+# Accessed 225 blocks, re-access delay: 49
+# Accessed 226 blocks, re-access delay: 49
+# Accessed 227 blocks, re-access delay: 49
+# Accessed 228 blocks, re-access delay: 49
+# Accessed 229 blocks, re-access delay: 49
+# Accessed 230 blocks, re-access delay: 49
+# Accessed 231 blocks, re-access delay: 49
+# Accessed 232 blocks, re-access delay: 49
+# Accessed 233 blocks, re-access delay: 49
+# Accessed 234 blocks, re-access delay: 49
+# Accessed 235 blocks, re-access delay: 49
+# Accessed 236 blocks, re-access delay: 49
+# Accessed 237 blocks, re-access delay: 49
+# Accessed 238 blocks, re-access delay: 49
+# Accessed 239 blocks, re-access delay: 49
+# Accessed 240 blocks, re-access delay: 49
+# Accessed 241 blocks, re-access delay: 49
+# Accessed 242 blocks, re-access delay: 49
+# Accessed 243 blocks, re-access delay: 49
+# Accessed 244 blocks, re-access delay: 49
+# Accessed 245 blocks, re-access delay: 49
+# Accessed 246 blocks, re-access delay: 49
+# Accessed 247 blocks, re-access delay: 49
+# Accessed 248 blocks, re-access delay: 49
+# Accessed 249 blocks, re-access delay: 49
+# Accessed 250 blocks, re-access delay: 49
+# Accessed 251 blocks, re-access delay: 49
+# Accessed 252 blocks, re-access delay: 49
+# Accessed 253 blocks, re-access delay: 49
+# Accessed 254 blocks, re-access delay: 49
+# Accessed 255 blocks, re-access delay: 49
+# Accessed 256 blocks, re-access delay: 49
+# Accessed 257 blocks, re-access delay: 49
+# Accessed 258 blocks, re-access delay: 49
+# Accessed 259 blocks, re-access delay: 49
+# Accessed 260 blocks, re-access delay: 49
+# Accessed 261 blocks, re-access delay: 49
+# Accessed 262 blocks, re-access delay: 49
+# Accessed 263 blocks, re-access delay: 49
+# Accessed 264 blocks, re-access delay: 49
+# Accessed 265 blocks, re-access delay: 49
+# Accessed 266 blocks, re-access delay: 49
+# Accessed 267 blocks, re-access delay: 49
+# Accessed 268 blocks, re-access delay: 49
+# Accessed 269 blocks, re-access delay: 49
+# Accessed 270 blocks, re-access delay: 49
+# Accessed 271 blocks, re-access delay: 49
+# Accessed 272 blocks, re-access delay: 49
+# Accessed 273 blocks, re-access delay: 49
+# Accessed 274 blocks, re-access delay: 49
+# Accessed 275 blocks, re-access delay: 49
+# Accessed 276 blocks, re-access delay: 49
+# Accessed 277 blocks, re-access delay: 49
+# Accessed 278 blocks, re-access delay: 49
+# Accessed 279 blocks, re-access delay: 49
+# Accessed 280 blocks, re-access delay: 49
+# Accessed 281 blocks, re-access delay: 49
+# Accessed 282 blocks, re-access delay: 49
+# Accessed 283 blocks, re-access delay: 49
+# Accessed 284 blocks, re-access delay: 49
+# Accessed 285 blocks, re-access delay: 49
+# Accessed 286 blocks, re-access delay: 49
+# Accessed 287 blocks, re-access delay: 49
+# Accessed 288 blocks, re-access delay: 49
+# Accessed 289 blocks, re-access delay: 49
+# Accessed 290 blocks, re-access delay: 49
+# Accessed 291 blocks, re-access delay: 49
+# Accessed 292 blocks, re-access delay: 49
+# Accessed 293 blocks, re-access delay: 49
+# Accessed 294 blocks, re-access delay: 49
+# Accessed 295 blocks, re-access delay: 49
+# Accessed 296 blocks, re-access delay: 49
+# Accessed 297 blocks, re-access delay: 49
+# Accessed 298 blocks, re-access delay: 49
+# Accessed 299 blocks, re-access delay: 49
+# Accessed 300 blocks, re-access delay: 49
+# Accessed 301 blocks, re-access delay: 49
+# Accessed 302 blocks, re-access delay: 49
+# Accessed 303 blocks, re-access delay: 49
+# Accessed 304 blocks, re-access delay: 49
+# Accessed 305 blocks, re-access delay: 49
+# Accessed 306 blocks, re-access delay: 49
+# Accessed 307 blocks, re-access delay: 49
+# Accessed 308 blocks, re-access delay: 49
+# Accessed 309 blocks, re-access delay: 49
+# Accessed 310 blocks, re-access delay: 49
+# Accessed 311 blocks, re-access delay: 49
+# Accessed 312 blocks, re-access delay: 49
+# Accessed 313 blocks, re-access delay: 49
+# Accessed 314 blocks, re-access delay: 49
+# Accessed 315 blocks, re-access delay: 49
+# Accessed 316 blocks, re-access delay: 49
+# Accessed 317 blocks, re-access delay: 49
+# Accessed 318 blocks, re-access delay: 49
+# Accessed 319 blocks, re-access delay: 49
+# Accessed 320 blocks, re-access delay: 49
+# Accessed 321 blocks, re-access delay: 49
+# Accessed 322 blocks, re-access delay: 49
+# Accessed 323 blocks, re-access delay: 49
+# Accessed 324 blocks, re-access delay: 49
+# Accessed 325 blocks, re-access delay: 49
+# Accessed 326 blocks, re-access delay: 49
+# Accessed 327 blocks, re-access delay: 49
+# Accessed 328 blocks, re-access delay: 49
+# Accessed 329 blocks, re-access delay: 49
+# Accessed 330 blocks, re-access delay: 49
+# Accessed 331 blocks, re-access delay: 49
+# Accessed 332 blocks, re-access delay: 49
+# Accessed 333 blocks, re-access delay: 49
+# Accessed 334 blocks, re-access delay: 49
+# Accessed 335 blocks, re-access delay: 49
+# Accessed 336 blocks, re-access delay: 49
+# Accessed 337 blocks, re-access delay: 49
+# Accessed 338 blocks, re-access delay: 49
+# Accessed 339 blocks, re-access delay: 49
+# Accessed 340 blocks, re-access delay: 49
+# Accessed 341 blocks, re-access delay: 49
+# Accessed 342 blocks, re-access delay: 49
+# Accessed 343 blocks, re-access delay: 49
+# Accessed 344 blocks, re-access delay: 49
+# Accessed 345 blocks, re-access delay: 49
+# Accessed 346 blocks, re-access delay: 49
+# Accessed 347 blocks, re-access delay: 49
+# Accessed 348 blocks, re-access delay: 49
+# Accessed 349 blocks, re-access delay: 49
+# Accessed 350 blocks, re-access delay: 49
+# Accessed 351 blocks, re-access delay: 49
+# Accessed 352 blocks, re-access delay: 49
+# Accessed 353 blocks, re-access delay: 49
+# Accessed 354 blocks, re-access delay: 49
+# Accessed 355 blocks, re-access delay: 49
+# Accessed 356 blocks, re-access delay: 49
+# Accessed 357 blocks, re-access delay: 49
+# Accessed 358 blocks, re-access delay: 49
+# Accessed 359 blocks, re-access delay: 49
+# Accessed 360 blocks, re-access delay: 49
+# Accessed 361 blocks, re-access delay: 49
+# Accessed 362 blocks, re-access delay: 49
+# Accessed 363 blocks, re-access delay: 49
+# Accessed 364 blocks, re-access delay: 49
+# Accessed 365 blocks, re-access delay: 49
+# Accessed 366 blocks, re-access delay: 49
+# Accessed 367 blocks, re-access delay: 49
+# Accessed 368 blocks, re-access delay: 49
+# Accessed 369 blocks, re-access delay: 49
+# Accessed 370 blocks, re-access delay: 49
+# Accessed 371 blocks, re-access delay: 49
+# Accessed 372 blocks, re-access delay: 49
+# Accessed 373 blocks, re-access delay: 49
+# Accessed 374 blocks, re-access delay: 49
+# Accessed 375 blocks, re-access delay: 49
+# Accessed 376 blocks, re-access delay: 49
+# Accessed 377 blocks, re-access delay: 49
+# Accessed 378 blocks, re-access delay: 49
+# Accessed 379 blocks, re-access delay: 49
+# Accessed 380 blocks, re-access delay: 49
+# Accessed 381 blocks, re-access delay: 49
+# Accessed 382 blocks, re-access delay: 49
+# Accessed 383 blocks, re-access delay: 49
+# Accessed 384 blocks, re-access delay: 49
+# Accessed 385 blocks, re-access delay: 49
+# Accessed 386 blocks, re-access delay: 49
+# Accessed 387 blocks, re-access delay: 49
+# Accessed 388 blocks, re-access delay: 49
+# Accessed 389 blocks, re-access delay: 49
+# Accessed 390 blocks, re-access delay: 49
+# Accessed 391 blocks, re-access delay: 49
+# Accessed 392 blocks, re-access delay: 49
+# Accessed 393 blocks, re-access delay: 49
+# Accessed 394 blocks, re-access delay: 49
+# Accessed 395 blocks, re-access delay: 49
+# Accessed 396 blocks, re-access delay: 49
+# Accessed 397 blocks, re-access delay: 49
+# Accessed 398 blocks, re-access delay: 49
+# Accessed 399 blocks, re-access delay: 49
+# Accessed 400 blocks, re-access delay: 49
+# Accessed 401 blocks, re-access delay: 49
+# Accessed 402 blocks, re-access delay: 49
+# Accessed 403 blocks, re-access delay: 49
+# Accessed 404 blocks, re-access delay: 49
+# Accessed 405 blocks, re-access delay: 49
+# Accessed 406 blocks, re-access delay: 49
+# Accessed 407 blocks, re-access delay: 49
+# Accessed 408 blocks, re-access delay: 49
+# Accessed 409 blocks, re-access delay: 49
+# Accessed 410 blocks, re-access delay: 49
+# Accessed 411 blocks, re-access delay: 49
+# Accessed 412 blocks, re-access delay: 49
+# Accessed 413 blocks, re-access delay: 49
+# Accessed 414 blocks, re-access delay: 49
+# Accessed 415 blocks, re-access delay: 49
+# Accessed 416 blocks, re-access delay: 49
+# Accessed 417 blocks, re-access delay: 49
+# Accessed 418 blocks, re-access delay: 49
+# Accessed 419 blocks, re-access delay: 49
+# Accessed 420 blocks, re-access delay: 49
+# Accessed 421 blocks, re-access delay: 49
+# Accessed 422 blocks, re-access delay: 49
+# Accessed 423 blocks, re-access delay: 49
+# Accessed 424 blocks, re-access delay: 49
+# Accessed 425 blocks, re-access delay: 49
+# Accessed 426 blocks, re-access delay: 49
+# Accessed 427 blocks, re-access delay: 49
+# Accessed 428 blocks, re-access delay: 49
+# Accessed 429 blocks, re-access delay: 49
+# Accessed 430 blocks, re-access delay: 49
+# Accessed 431 blocks, re-access delay: 49
+# Accessed 432 blocks, re-access delay: 49
+# Accessed 433 blocks, re-access delay: 49
+# Accessed 434 blocks, re-access delay: 49
+# Accessed 435 blocks, re-access delay: 49
+# Accessed 436 blocks, re-access delay: 49
+# Accessed 437 blocks, re-access delay: 49
+# Accessed 438 blocks, re-access delay: 49
+# Accessed 439 blocks, re-access delay: 49
+# Accessed 440 blocks, re-access delay: 49
+# Accessed 441 blocks, re-access delay: 49
+# Accessed 442 blocks, re-access delay: 49
+# Accessed 443 blocks, re-access delay: 49
+# Accessed 444 blocks, re-access delay: 49
+# Accessed 445 blocks, re-access delay: 49
+# Accessed 446 blocks, re-access delay: 49
+# Accessed 447 blocks, re-access delay: 49
+# Accessed 448 blocks, re-access delay: 49
+# Accessed 449 blocks, re-access delay: 49
+# Accessed 450 blocks, re-access delay: 49
+# Accessed 451 blocks, re-access delay: 49
+# Accessed 452 blocks, re-access delay: 49
+# Accessed 453 blocks, re-access delay: 49
+# Accessed 454 blocks, re-access delay: 49
+# Accessed 455 blocks, re-access delay: 49
+# Accessed 456 blocks, re-access delay: 49
+# Accessed 457 blocks, re-access delay: 49
+# Accessed 458 blocks, re-access delay: 49
+# Accessed 459 blocks, re-access delay: 49
+# Accessed 460 blocks, re-access delay: 49
+# Accessed 461 blocks, re-access delay: 49
+# Accessed 462 blocks, re-access delay: 49
+# Accessed 463 blocks, re-access delay: 49
+# Accessed 464 blocks, re-access delay: 49
+# Accessed 465 blocks, re-access delay: 49
+# Accessed 466 blocks, re-access delay: 49
+# Accessed 467 blocks, re-access delay: 49
+# Accessed 468 blocks, re-access delay: 49
+# Accessed 469 blocks, re-access delay: 49
+# Accessed 470 blocks, re-access delay: 49
+# Accessed 471 blocks, re-access delay: 49
+# Accessed 472 blocks, re-access delay: 49
+# Accessed 473 blocks, re-access delay: 49
+# Accessed 474 blocks, re-access delay: 49
+# Accessed 475 blocks, re-access delay: 49
+# Accessed 476 blocks, re-access delay: 49
+# Accessed 477 blocks, re-access delay: 49
+# Accessed 478 blocks, re-access delay: 49
+# Accessed 479 blocks, re-access delay: 49
+# Accessed 480 blocks, re-access delay: 49
+# Accessed 481 blocks, re-access delay: 49
+# Accessed 482 blocks, re-access delay: 49
+# Accessed 483 blocks, re-access delay: 49
+# Accessed 484 blocks, re-access delay: 49
+# Accessed 485 blocks, re-access delay: 49
+# Accessed 486 blocks, re-access delay: 49
+# Accessed 487 blocks, re-access delay: 49
+# Accessed 488 blocks, re-access delay: 49
+# Accessed 489 blocks, re-access delay: 49
+# Accessed 490 blocks, re-access delay: 49
+# Accessed 491 blocks, re-access delay: 49
+# Accessed 492 blocks, re-access delay: 49
+# Accessed 493 blocks, re-access delay: 49
+# Accessed 494 blocks, re-access delay: 49
+# Accessed 495 blocks, re-access delay: 49
+# Accessed 496 blocks, re-access delay: 49
+# Accessed 497 blocks, re-access delay: 49
+# Accessed 498 blocks, re-access delay: 49
+# Accessed 499 blocks, re-access delay: 49
+# Accessed 500 blocks, re-access delay: 49
+# Accessed 501 blocks, re-access delay: 49
+# Accessed 502 blocks, re-access delay: 49
+# Accessed 503 blocks, re-access delay: 49
+# Accessed 504 blocks, re-access delay: 49
+# Accessed 505 blocks, re-access delay: 49
+# Accessed 506 blocks, re-access delay: 49
+# Accessed 507 blocks, re-access delay: 49
+# Accessed 508 blocks, re-access delay: 49
+# Accessed 509 blocks, re-access delay: 49
+# Accessed 510 blocks, re-access delay: 49
+# Accessed 511 blocks, re-access delay: 49
+# Accessed 512 blocks, re-access delay: 49
+# Accessed 513 blocks, re-access delay: 114
+# => Detected L1 Cache: Num of Block = 512 blocks
+# 
+# --- Test L2 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 17
+# Accessed 6 blocks, re-access delay: 17
+# Accessed 7 blocks, re-access delay: 17
+# Accessed 8 blocks, re-access delay: 17
+# Accessed 9 blocks, re-access delay: 17
+# Accessed 10 blocks, re-access delay: 17
+# Accessed 11 blocks, re-access delay: 17
+# Accessed 12 blocks, re-access delay: 17
+# Accessed 13 blocks, re-access delay: 17
+# Accessed 14 blocks, re-access delay: 17
+# Accessed 15 blocks, re-access delay: 17
+# Accessed 16 blocks, re-access delay: 17
+# Accessed 17 blocks, re-access delay: 17
+# Accessed 18 blocks, re-access delay: 17
+# Accessed 19 blocks, re-access delay: 17
+# Accessed 20 blocks, re-access delay: 17
+# Accessed 21 blocks, re-access delay: 17
+# Accessed 22 blocks, re-access delay: 17
+# Accessed 23 blocks, re-access delay: 17
+# Accessed 24 blocks, re-access delay: 17
+# Accessed 25 blocks, re-access delay: 17
+# Accessed 26 blocks, re-access delay: 17
+# Accessed 27 blocks, re-access delay: 17
+# Accessed 28 blocks, re-access delay: 17
+# Accessed 29 blocks, re-access delay: 17
+# Accessed 30 blocks, re-access delay: 17
+# Accessed 31 blocks, re-access delay: 17
+# Accessed 32 blocks, re-access delay: 17
+# Accessed 33 blocks, re-access delay: 49
+# Accessed 34 blocks, re-access delay: 49
+# Accessed 35 blocks, re-access delay: 49
+# Accessed 36 blocks, re-access delay: 49
+# Accessed 37 blocks, re-access delay: 49
+# Accessed 38 blocks, re-access delay: 49
+# Accessed 39 blocks, re-access delay: 49
+# Accessed 40 blocks, re-access delay: 49
+# Accessed 41 blocks, re-access delay: 49
+# Accessed 42 blocks, re-access delay: 49
+# Accessed 43 blocks, re-access delay: 49
+# Accessed 44 blocks, re-access delay: 49
+# Accessed 45 blocks, re-access delay: 49
+# Accessed 46 blocks, re-access delay: 49
+# Accessed 47 blocks, re-access delay: 49
+# Accessed 48 blocks, re-access delay: 49
+# Accessed 49 blocks, re-access delay: 49
+# Accessed 50 blocks, re-access delay: 49
+# Accessed 51 blocks, re-access delay: 49
+# Accessed 52 blocks, re-access delay: 49
+# Accessed 53 blocks, re-access delay: 49
+# Accessed 54 blocks, re-access delay: 49
+# Accessed 55 blocks, re-access delay: 49
+# Accessed 56 blocks, re-access delay: 49
+# Accessed 57 blocks, re-access delay: 49
+# Accessed 58 blocks, re-access delay: 49
+# Accessed 59 blocks, re-access delay: 49
+# Accessed 60 blocks, re-access delay: 49
+# Accessed 61 blocks, re-access delay: 49
+# Accessed 62 blocks, re-access delay: 49
+# Accessed 63 blocks, re-access delay: 49
+# Accessed 64 blocks, re-access delay: 49
+# Accessed 65 blocks, re-access delay: 49
+# Accessed 66 blocks, re-access delay: 49
+# Accessed 67 blocks, re-access delay: 49
+# Accessed 68 blocks, re-access delay: 49
+# Accessed 69 blocks, re-access delay: 49
+# Accessed 70 blocks, re-access delay: 49
+# Accessed 71 blocks, re-access delay: 49
+# Accessed 72 blocks, re-access delay: 49
+# Accessed 73 blocks, re-access delay: 49
+# Accessed 74 blocks, re-access delay: 49
+# Accessed 75 blocks, re-access delay: 49
+# Accessed 76 blocks, re-access delay: 49
+# Accessed 77 blocks, re-access delay: 49
+# Accessed 78 blocks, re-access delay: 49
+# Accessed 79 blocks, re-access delay: 49
+# Accessed 80 blocks, re-access delay: 49
+# Accessed 81 blocks, re-access delay: 49
+# Accessed 82 blocks, re-access delay: 49
+# Accessed 83 blocks, re-access delay: 49
+# Accessed 84 blocks, re-access delay: 49
+# Accessed 85 blocks, re-access delay: 49
+# Accessed 86 blocks, re-access delay: 49
+# Accessed 87 blocks, re-access delay: 49
+# Accessed 88 blocks, re-access delay: 49
+# Accessed 89 blocks, re-access delay: 49
+# Accessed 90 blocks, re-access delay: 49
+# Accessed 91 blocks, re-access delay: 49
+# Accessed 92 blocks, re-access delay: 49
+# Accessed 93 blocks, re-access delay: 49
+# Accessed 94 blocks, re-access delay: 49
+# Accessed 95 blocks, re-access delay: 49
+# Accessed 96 blocks, re-access delay: 49
+# Accessed 97 blocks, re-access delay: 49
+# Accessed 98 blocks, re-access delay: 49
+# Accessed 99 blocks, re-access delay: 49
+# Accessed 100 blocks, re-access delay: 49
+# Accessed 101 blocks, re-access delay: 49
+# Accessed 102 blocks, re-access delay: 49
+# Accessed 103 blocks, re-access delay: 49
+# Accessed 104 blocks, re-access delay: 49
+# Accessed 105 blocks, re-access delay: 49
+# Accessed 106 blocks, re-access delay: 49
+# Accessed 107 blocks, re-access delay: 49
+# Accessed 108 blocks, re-access delay: 49
+# Accessed 109 blocks, re-access delay: 49
+# Accessed 110 blocks, re-access delay: 49
+# Accessed 111 blocks, re-access delay: 49
+# Accessed 112 blocks, re-access delay: 49
+# Accessed 113 blocks, re-access delay: 49
+# Accessed 114 blocks, re-access delay: 49
+# Accessed 115 blocks, re-access delay: 49
+# Accessed 116 blocks, re-access delay: 49
+# Accessed 117 blocks, re-access delay: 49
+# Accessed 118 blocks, re-access delay: 49
+# Accessed 119 blocks, re-access delay: 49
+# Accessed 120 blocks, re-access delay: 49
+# Accessed 121 blocks, re-access delay: 49
+# Accessed 122 blocks, re-access delay: 49
+# Accessed 123 blocks, re-access delay: 49
+# Accessed 124 blocks, re-access delay: 49
+# Accessed 125 blocks, re-access delay: 49
+# Accessed 126 blocks, re-access delay: 49
+# Accessed 127 blocks, re-access delay: 49
+# Accessed 128 blocks, re-access delay: 49
+# Accessed 129 blocks, re-access delay: 114
+# => Detected L2 Cache: Num of Block = 128 blocks
+# 
+# --- Test L3 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 17
+# Accessed 3 blocks, re-access delay: 17
+# Accessed 4 blocks, re-access delay: 17
+# Accessed 5 blocks, re-access delay: 49
+# Accessed 6 blocks, re-access delay: 49
+# Accessed 7 blocks, re-access delay: 49
+# Accessed 8 blocks, re-access delay: 49
+# Accessed 9 blocks, re-access delay: 114
+# => Detected L3 Cache: Num of Block = 8 blocks
+# ** Note: $stop    : ./lab5.sv(363)
+#    Time: 29978727 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 363
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:36 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:45:37 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:37 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:45:37 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:38 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:45:38 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:38 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:45:39 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:39 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# ** Error: ./lab5.sv(354): Illegal task output argument.
+# ** Error: ./lab5.sv(358): Illegal task output argument.
+# ** Error: ./lab5.sv(362): Illegal task output argument.
+# End time: 12:45:39 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./lab5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:31 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:46:32 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:32 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:46:33 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:33 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:46:34 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:34 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:46:34 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:34 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 12:46:34 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:47:01 on Jun 05,2025, Elapsed time: 0:03:59
+# Errors: 6, Warnings: 41
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 12:47:01 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Test L1 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Test L2 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Test L3 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# 
+# --- Test L1 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 5
+# Accessed 6 blocks, re-access delay: 5
+# Accessed 7 blocks, re-access delay: 5
+# Accessed 8 blocks, re-access delay: 5
+# Accessed 9 blocks, re-access delay: 5
+# Accessed 10 blocks, re-access delay: 5
+# Accessed 11 blocks, re-access delay: 5
+# Accessed 12 blocks, re-access delay: 5
+# Accessed 13 blocks, re-access delay: 5
+# Accessed 14 blocks, re-access delay: 5
+# Accessed 15 blocks, re-access delay: 5
+# Accessed 16 blocks, re-access delay: 5
+# Accessed 17 blocks, re-access delay: 17
+# => Detected L1 Cache: Num of Block = 16 blocks
+# 
+# --- Test L2 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 17
+# Accessed 6 blocks, re-access delay: 17
+# Accessed 7 blocks, re-access delay: 17
+# Accessed 8 blocks, re-access delay: 17
+# Accessed 9 blocks, re-access delay: 17
+# Accessed 10 blocks, re-access delay: 17
+# Accessed 11 blocks, re-access delay: 17
+# Accessed 12 blocks, re-access delay: 17
+# Accessed 13 blocks, re-access delay: 17
+# Accessed 14 blocks, re-access delay: 17
+# Accessed 15 blocks, re-access delay: 17
+# Accessed 16 blocks, re-access delay: 17
+# Accessed 17 blocks, re-access delay: 17
+# Accessed 18 blocks, re-access delay: 17
+# Accessed 19 blocks, re-access delay: 17
+# Accessed 20 blocks, re-access delay: 17
+# Accessed 21 blocks, re-access delay: 17
+# Accessed 22 blocks, re-access delay: 17
+# Accessed 23 blocks, re-access delay: 17
+# Accessed 24 blocks, re-access delay: 17
+# Accessed 25 blocks, re-access delay: 17
+# Accessed 26 blocks, re-access delay: 17
+# Accessed 27 blocks, re-access delay: 17
+# Accessed 28 blocks, re-access delay: 17
+# Accessed 29 blocks, re-access delay: 17
+# Accessed 30 blocks, re-access delay: 17
+# Accessed 31 blocks, re-access delay: 17
+# Accessed 32 blocks, re-access delay: 17
+# Accessed 33 blocks, re-access delay: 49
+# => Detected L2 Cache: Num of Block = 32 blocks
+# 
+# --- Test L3 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 17
+# Accessed 3 blocks, re-access delay: 17
+# Accessed 4 blocks, re-access delay: 17
+# Accessed 5 blocks, re-access delay: 49
+# Accessed 6 blocks, re-access delay: 49
+# Accessed 7 blocks, re-access delay: 49
+# Accessed 8 blocks, re-access delay: 49
+# Accessed 9 blocks, re-access delay: 114
+# => Detected L3 Cache: Num of Block = 8 blocks
+# ** Note: $stop    : ./lab5.sv(364)
+#    Time: 228967 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 364
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:55:32 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 12:55:33 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:55:33 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 12:55:33 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:55:34 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 12:55:34 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:55:34 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 12:55:35 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:55:35 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 12:55:35 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:55:54 on Jun 05,2025, Elapsed time: 0:08:53
+# Errors: 0, Warnings: 21
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 12:55:54 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Test L1 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Test L2 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Test L3 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# 
+# --- Test L1 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 5
+# Accessed 6 blocks, re-access delay: 5
+# Accessed 7 blocks, re-access delay: 5
+# Accessed 8 blocks, re-access delay: 5
+# Accessed 9 blocks, re-access delay: 5
+# Accessed 10 blocks, re-access delay: 5
+# Accessed 11 blocks, re-access delay: 5
+# Accessed 12 blocks, re-access delay: 5
+# Accessed 13 blocks, re-access delay: 5
+# Accessed 14 blocks, re-access delay: 5
+# Accessed 15 blocks, re-access delay: 5
+# Accessed 16 blocks, re-access delay: 5
+# Accessed 17 blocks, re-access delay: 17
+# => Detected L1 Cache: Num of Block = 16 blocks
+# 
+# --- Test L2 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 17
+# Accessed 4 blocks, re-access delay: 17
+# Accessed 5 blocks, re-access delay: 17
+# Accessed 6 blocks, re-access delay: 17
+# Accessed 7 blocks, re-access delay: 17
+# Accessed 8 blocks, re-access delay: 17
+# Accessed 9 blocks, re-access delay: 17
+# Accessed 10 blocks, re-access delay: 17
+# Accessed 11 blocks, re-access delay: 17
+# Accessed 12 blocks, re-access delay: 17
+# Accessed 13 blocks, re-access delay: 17
+# Accessed 14 blocks, re-access delay: 17
+# Accessed 15 blocks, re-access delay: 17
+# Accessed 16 blocks, re-access delay: 17
+# Accessed 17 blocks, re-access delay: 49
+# => Detected L2 Cache: Num of Block = 16 blocks
+# 
+# --- Test L3 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 17
+# Accessed 3 blocks, re-access delay: 17
+# Accessed 4 blocks, re-access delay: 17
+# Accessed 5 blocks, re-access delay: 49
+# Accessed 6 blocks, re-access delay: 49
+# Accessed 7 blocks, re-access delay: 49
+# Accessed 8 blocks, re-access delay: 49
+# Accessed 9 blocks, re-access delay: 114
+# => Detected L3 Cache: Num of Block = 8 blocks
+# ** Note: $stop    : ./lab5.sv(364)
+#    Time: 141727 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 364
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:00 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 13:22:00 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:00 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 13:22:01 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:01 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 13:22:02 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:02 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 13:22:02 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:02 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# ** Error: (vlog-13069) ./lab5.sv(319): near "logic": syntax error, unexpected "SystemVerilog keyword 'logic'", expecting ';' or ','.
+# ** Error: ./lab5.sv(339): (vlog-2730) Undefined variable: 'read_data'.
+# End time: 13:22:03 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./lab5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:31 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 13:22:32 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:32 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 13:22:32 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:33 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 13:22:33 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:33 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 13:22:34 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:22:34 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 13:22:34 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:23:12 on Jun 05,2025, Elapsed time: 0:27:18
+# Errors: 5, Warnings: 41
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 13:23:12 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# ** Error: (vsim-3043) ./lab5.sv(394): Unresolved reference to 'resetMEM'.
+#    Time: 0 ps  Iteration: 0  Instance: /lab5_testbench File: ./lab5.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 16
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:08 on Jun 05,2025
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 13:25:09 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:09 on Jun 05,2025
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 13:25:09 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:10 on Jun 05,2025
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 13:25:10 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:10 on Jun 05,2025
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 13:25:11 on Jun 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:11 on Jun 05,2025
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 13:25:11 on Jun 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 13:23:12 on Jun 05,2025
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1157.00000 ns Read took         114 cycles
+# 2307.00000 ns Read took         114 cycles
+# 3457.00000 ns Read took         114 cycles
+# 4607.00000 ns Read took         114 cycles
+# 5757.00000 ns Read took         114 cycles
+# 6907.00000 ns Read took         114 cycles
+# 8057.00000 ns Read took         114 cycles
+# 9207.00000 ns Read took         114 cycles
+# 10357.00000 ns Read took         114 cycles
+# 11507.00000 ns Read took         114 cycles
+# 12657.00000 ns Read took         114 cycles
+# 13807.00000 ns Read took         114 cycles
+# 14957.00000 ns Read took         114 cycles
+# 16107.00000 ns Read took         114 cycles
+# 17257.00000 ns Read took         114 cycles
+# 18407.00000 ns Read took         114 cycles
+# 19557.00000 ns Read took         114 cycles
+# 20707.00000 ns Read took         114 cycles
+# 21857.00000 ns Read took         114 cycles
+# 23007.00000 ns Read took         114 cycles
+# 23077.00000 ns Write took           6 cycles
+# 24167.00000 ns Write took         108 cycles
+# 25267.00000 ns Write took         109 cycles
+# 26367.00000 ns Write took         109 cycles
+# 27467.00000 ns Write took         109 cycles
+# 
+# --- Test L1 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =  17
+# Stride   16 bytes: min =   5, max = 114
+# => Detected L1 cache block size = 8 bytes
+# 
+# --- Test L2 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =  17
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  17
+# Stride  128 bytes: min =   5, max = 114
+# => Detected L2 cache block size = 64 bytes
+# 
+# --- Test L3 Cache: Block Size (in bytes) ---
+# Stride    8 bytes: min =   5, max =   5
+# Stride   16 bytes: min =   5, max =   5
+# Stride   32 bytes: min =   5, max =  17
+# Stride   64 bytes: min =   5, max =  49
+# Stride  128 bytes: min =   5, max =  49
+# Stride  256 bytes: min =   5, max =  49
+# Stride  512 bytes: min =   5, max =  49
+# Stride 1024 bytes: min =   5, max = 114
+# => Detected L3 cache block size = 512 bytes
+# 
+# --- Test L1 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 5
+# Accessed 4 blocks, re-access delay: 5
+# Accessed 5 blocks, re-access delay: 5
+# Accessed 6 blocks, re-access delay: 5
+# Accessed 7 blocks, re-access delay: 5
+# Accessed 8 blocks, re-access delay: 5
+# Accessed 9 blocks, re-access delay: 5
+# Accessed 10 blocks, re-access delay: 5
+# Accessed 11 blocks, re-access delay: 5
+# Accessed 12 blocks, re-access delay: 5
+# Accessed 13 blocks, re-access delay: 5
+# Accessed 14 blocks, re-access delay: 5
+# Accessed 15 blocks, re-access delay: 5
+# Accessed 16 blocks, re-access delay: 5
+# Accessed 17 blocks, re-access delay: 17
+# => Detected L1 Cache: Num of Block = 16 blocks
+# 
+# --- Test L2 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 5
+# Accessed 3 blocks, re-access delay: 17
+# Accessed 4 blocks, re-access delay: 17
+# Accessed 5 blocks, re-access delay: 17
+# Accessed 6 blocks, re-access delay: 17
+# Accessed 7 blocks, re-access delay: 17
+# Accessed 8 blocks, re-access delay: 17
+# Accessed 9 blocks, re-access delay: 17
+# Accessed 10 blocks, re-access delay: 17
+# Accessed 11 blocks, re-access delay: 17
+# Accessed 12 blocks, re-access delay: 17
+# Accessed 13 blocks, re-access delay: 17
+# Accessed 14 blocks, re-access delay: 17
+# Accessed 15 blocks, re-access delay: 17
+# Accessed 16 blocks, re-access delay: 17
+# Accessed 17 blocks, re-access delay: 49
+# => Detected L2 Cache: Num of Block = 16 blocks
+# 
+# --- Test L3 Cache: Num of Block ---
+# Accessed 1 blocks, re-access delay: 5
+# Accessed 2 blocks, re-access delay: 17
+# Accessed 3 blocks, re-access delay: 17
+# Accessed 4 blocks, re-access delay: 17
+# Accessed 5 blocks, re-access delay: 49
+# Accessed 6 blocks, re-access delay: 49
+# Accessed 7 blocks, re-access delay: 49
+# Accessed 8 blocks, re-access delay: 49
+# Accessed 9 blocks, re-access delay: 114
+# => Detected L3 Cache: Num of Block = 8 blocks
+# 
+# --- Test L1 Cache: Associativity ---
+# Accessed 1 conflicting blocks, re-access delay: 217, data = 0                   x
+# => Detected L1 Cache: Associativity = 0-way
+# 
+# --- Test L2 Cache: Associativity ---
+# Accessed 1 conflicting blocks, re-access delay: 217, data = 0                   x
+# => Detected L2 Cache: Associativity = 0-way
+# 
+# --- Test L3 Cache: Associativity ---
+# Accessed 1 conflicting blocks, re-access delay: 217, data = 0                   x
+# => Detected L3 Cache: Associativity = 0-way
+# ** Note: $stop    : ./lab5.sv(421)
+#    Time: 161637 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 421
