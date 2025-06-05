@@ -51,8 +51,8 @@ endmodule
 // Test the data memory, and figure out the settings.
 
 module lab5_testbench ();
-//	localparam USERID = 2223861;  // Set to your student ID #
-	localparam USERID = 0;  // Set to your student ID #
+	localparam USERID = 2223861;  // Set to your student ID #
+//	localparam USERID = 0;  // Set to your student ID #
 	localparam ADDRESS_WIDTH = 20;
 	localparam DATA_WIDTH = 8;
 	
@@ -239,6 +239,7 @@ module lab5_testbench ();
 	task test_block_size_words;
 		 input int base_address;
 		 input string label;
+		 input int miss_threshold;         // e.g., 17 for L1→L2, 49 for L2→L3
 		 output int block_size_bytes;
 
 		 int stride_bytes, delay, prev_delay;
@@ -248,21 +249,23 @@ module lab5_testbench ();
 
 		 block_size_bytes = -1;
 
-		 // First read to warm up cache
+		 // First read to load the initial block
 		 readMem(base_address, dummy_data, prev_delay);
 
-		 // Try increasing stride values
-		 for (stride_bytes = 8; stride_bytes <= 1024; stride_bytes *= 2) begin
+		 // Try increasing strides in smaller steps
+		 for (stride_bytes = 8; stride_bytes <= 512; stride_bytes += 8) begin
 			  readMem(base_address + stride_bytes, dummy_data, delay);
 			  $display("Stride %4d bytes: delay = %3d", stride_bytes, delay);
 
-			  if (delay >= 70) begin  // Adjust this threshold based on your L1 miss penalty
+			  // Detect when the delay jumps above the cache hit time
+			  if (delay >= miss_threshold) begin
 					block_size_bytes = stride_bytes;
 					$display("=> Detected %s cache block size = %0d bytes", label, block_size_bytes);
 					break;
 			  end
 		 end
 	endtask
+
 
 
 	task test_num_blocks;
@@ -297,11 +300,12 @@ module lab5_testbench ();
 		 end
 	endtask
 	
-	
+		
 	task test_associativity;
 		 input string label;
 		 input int block_size;
-		 input int set_conflict_stride;  // large enough to map to same set, but different tags
+		 input int set_conflict_stride;
+		 input int cycles;  // L1 = ~5, L2 = ~17, L3 = ~49
 		 output int associativity;
 
 		 int i, delay;
@@ -311,24 +315,29 @@ module lab5_testbench ();
 		 $display("\n--- Test %s Cache: Associativity ---", label);
 
 		 for (associativity = 1; associativity <= 32; associativity++) begin
-			  // Fill cache set with conflicting blocks
-			  for (i = 0; i < associativity; i++) begin
-					write_data = '0;
-					write_data[0] = (i == 0) ? 99 : i;   // Unique value for each address
-					writeMem(i * set_conflict_stride, write_data, 8'hFF, delay);
-			  end
-
-			  // Re-access first address and see if it's evicted
+			  // Access address 0 to load it into the cache
 			  readMem(0, read_data, delay);
 
-			  $display("Accessed %0d conflicting blocks, re-access delay: %0d, data = %0d", associativity, delay, read_data[0]);
+			  // Access additional addresses that map to the same set
+			  for (i = 1; i < associativity; i++) begin
+					readMem(i * set_conflict_stride, read_data, delay);
+			  end
 
-			  if (read_data[0] != 99) begin
+			  // Re-access address 0 and check the delay
+			  readMem(0, read_data, delay);
+
+			  $display("Accessed %0d conflicting blocks, re-access delay: %0d",
+						associativity, delay);
+
+			  if (delay > cycles) begin
+					associativity = associativity - 1;
 					$display("=> Detected %s Cache: Associativity = %0d-way", label, associativity);
 					break;
 			  end
 		 end
 	endtask
+
+
 
 	
 	
@@ -363,45 +372,45 @@ module lab5_testbench ();
 		// Reset the memory.
 		resetMem();
 		
-		test_block_size_words(0, "L1", l1_block);
+		test_block_size_words(0, "L1", 17, l1_block);
 
 		// Force L1 eviction to expose L2
 		resetMem();
 
-		test_block_size_words(0, "L2", l2_block);
+		test_block_size_words(0, "L2", 49, l2_block);
 
 		// Force L2 eviction to expose L3
 		resetMem();
-//
-//		test_block_size_words(0, "L3", l3_block);
+
+		test_block_size_words(0, "L3", 114, l3_block);
 		
 		resetMem();
 
 		// Testing of number of blocks 
-		test_num_blocks(0, "L1", l1_block, 2, l1_num_block); 
+		test_num_blocks(0, "L1", l1_block, 5, l1_num_block); 
 		
 		resetMem();
 
-		test_num_blocks(0, "L2", l2_block, 10, l2_num_block);
+		test_num_blocks(0, "L2", l2_block, 17, l2_num_block);
 		
-//		resetMem();
-//		
-////		test_num_blocks(0, "L3", l3_block, 49, l3_num_block);
-//		
+		resetMem();
+		
+		test_num_blocks(0, "L3", l3_block, 49, l3_num_block);
+		
 		resetMem();
 		
 		// Testing Associativity
 		
-		test_associativity( "L1", l1_block, l1_block*64, l1_associativity);
+		test_associativity( "L1", l1_block, l1_block*l1_num_block, 5, l1_associativity);
 		
 		resetMem();
 		
-		test_associativity( "L2", l2_block, l2_block*64, l2_associativity);
+		test_associativity( "L2", l2_block, l2_block*l2_num_block, 17, l2_associativity);
 		
 		resetMem();
-//		
-////		test_associativity( "L3", l3_block, l3_num_block, l1_associativity);
-//		
+		
+		test_associativity( "L3", l3_block, l3_block*l3_num_block, 49, l3_associativity);
+		
 		$stop();
 	end
 	

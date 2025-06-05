@@ -1,23 +1,25 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /lab5_testbench/USERID
-add wave -noupdate /lab5_testbench/ADDRESS_WIDTH
-add wave -noupdate /lab5_testbench/DATA_WIDTH
-add wave -noupdate /lab5_testbench/CLOCK_PERIOD
-add wave -noupdate /lab5_testbench/address
-add wave -noupdate /lab5_testbench/data_in
-add wave -noupdate /lab5_testbench/bytemask
-add wave -noupdate /lab5_testbench/write
-add wave -noupdate /lab5_testbench/start_access
-add wave -noupdate /lab5_testbench/access_done
-add wave -noupdate /lab5_testbench/data_out
-add wave -noupdate /lab5_testbench/clk
-add wave -noupdate /lab5_testbench/reset
-add wave -noupdate /lab5_testbench/cycles
-add wave -noupdate /lab5_testbench/addr
-add wave -noupdate /lab5_testbench/delay
+add wave -noupdate -radix unsigned /lab5_testbench/USERID
+add wave -noupdate -radix unsigned /lab5_testbench/ADDRESS_WIDTH
+add wave -noupdate -radix unsigned /lab5_testbench/DATA_WIDTH
+add wave -noupdate -radix unsigned /lab5_testbench/CLOCK_PERIOD
+add wave -noupdate -radix unsigned /lab5_testbench/address
+add wave -noupdate -radix unsigned /lab5_testbench/data_in
+add wave -noupdate -radix unsigned /lab5_testbench/bytemask
+add wave -noupdate -radix unsigned /lab5_testbench/write
+add wave -noupdate -radix unsigned /lab5_testbench/start_access
+add wave -noupdate -radix unsigned /lab5_testbench/access_done
+add wave -noupdate -radix unsigned /lab5_testbench/data_out
+add wave -noupdate -radix unsigned /lab5_testbench/clk
+add wave -noupdate -radix unsigned /lab5_testbench/reset
+add wave -noupdate -radix unsigned /lab5_testbench/cycles
+add wave -noupdate -radix unsigned /lab5_testbench/addr
+add wave -noupdate -radix unsigned /lab5_testbench/delay
+add wave -noupdate -radix unsigned /lab5_testbench/minval
+add wave -noupdate -radix unsigned /lab5_testbench/maxval
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {28150623 ps} 0}
+WaveRestoreCursors {{Cursor 1} {101616000 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -33,4 +35,4 @@ configure wave -griddelta 4
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {26205930 ps} {29975026 ps}
+WaveRestoreZoom {0 ps} {853141800 ps}
