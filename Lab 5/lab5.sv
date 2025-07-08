@@ -236,6 +236,7 @@ module lab5_testbench ();
 		reset <= 0;
 		#1;
 	endtask
+	
 	task test_block_size_words;
 		 input int base_address;
 		 input string label;
@@ -268,13 +269,13 @@ module lab5_testbench ();
 
 
 
-	task test_num_blocks;
+	task test_num_blocks;	 
 		 input int base_address;
 		 input string label;
 		 input int block_size;
 		 input int cycles; 
 		 output int num_blocks;
-
+		 
 		 int i, delay;
 		 
 		 logic [7:0][7:0] dummy_data;
@@ -305,7 +306,7 @@ module lab5_testbench ();
 		 input string label;
 		 input int block_size;
 		 input int set_conflict_stride;
-		 input int cycles;  // L1 = ~5, L2 = ~17, L3 = ~49
+		 input int cycles;  
 		 output int associativity;
 
 		 int i, delay;
@@ -337,11 +338,80 @@ module lab5_testbench ();
 		 end
 	endtask
 
+	task test_replacement;
+		 input string label;
+		 input int block_size;
+		 input int associativity;
+		 input int set_conflict_stride;
+		 input int cycles;  // L1 = ~5, L2 = ~17, L3 = ~49
+		 
+		 int i, delay;
+		 logic [7:0][7:0] read_data;
+		 logic [7:0][7:0] write_data;
+
+		 $display("\n--- Test %s Cache: Replacement Policy ---", label);
+
+		  // Fill the set
+		  for (i = 1; i < associativity; i++) begin
+				write_data[0] = i; 
+				writeMem(i * set_conflict_stride, write_data, 8'hFF, delay);
+		  end
+
+		  // Re-access address 0 and check the delay
+		  readMem(0, read_data, delay);
+		  
+		  write_data[0] = 99;
+		  writeMem(associativity * set_conflict_stride, write_data, 8'hFF, delay);
+
+		  $display("Re-access block 0 delay: %0d, data = %0d", delay, read_data[0]);
+
+		  if (delay >= cycles || read_data[0] !== 0) begin
+				$display("=> %s Cache is likely uses RANDOM replacement", label);
+		  end
+		  else begin
+				$display("=> %s Cache is likely uses LRU replacement", label);
+		  end
+	endtask	
+		
+	
+	task test_write_buffer;
+		 input string label;
+		 input int block_size;
+		 input int set_conflict_stride;
+		 input int cycles;
+		 
+		 int i, delay, slow_writes;
+		 
+		 logic [7:0][7:0] read_data;
+		 logic [7:0][7:0] write_data;
+
+		 $display("\n--- Test %s Cache: Write Buffer Presence ---", label);
+		 
+		 slow_writes = 0;
+		 
+		 for (i = 0; i < block_size; i++) begin
+				readMem(i*set_conflict_stride, read_data, delay);
+				$display("Read to addr %0d: delay = %0d", i * set_conflict_stride, delay);
+		 end 
+		 
+		 for (i = 0; i < block_size*2; i++) begin
+			  write_data = '0;
+			  write_data[0] = i;
+			  writeMem(i * set_conflict_stride, write_data, 8'hFF, delay);
+			  $display("Write to addr %0d: delay = %0d", i * set_conflict_stride, delay);
+
+			  if (delay >= cycles)
+					slow_writes++;
+		 end
+
+		 if (slow_writes <= 1)
+			  $display("=> %s Cache: Likely HAS a Write Buffer (only first write is slow)", label);
+		 else
+			  $display("=> %s Cache: Likely NO Write Buffer (many slow writes)", label);
+	endtask
 
 
 	
-	
-
 	
 	logic	[DATA_WIDTH-1:0][7:0]	dummy_data;
 	logic [ADDRESS_WIDTH-1:0]		addr;
@@ -411,7 +481,38 @@ module lab5_testbench ();
 		
 		test_associativity( "L3", l3_block, l3_block*l3_num_block, 49, l3_associativity);
 		
+		resetMem();
+		
+		// Testing Replacement 
+		test_replacement("L2", l2_block, l2_associativity, l2_block*l2_num_block, 49);
+		
+		resetMem();
+		
+		test_replacement("L3", l3_block, l3_associativity, l3_block*l3_num_block, 114);
+		
+		resetMem();
+		
+		// Testing write-buffer
+
+		test_write_buffer("L1", l1_num_block, l1_block, 17);  // Use stride large enough to avoid cache hits
+		resetMem();
+
+		test_write_buffer("L2", l2_num_block, l2_block, 49);
+		resetMem();
+		
+		test_write_buffer("L3", l3_num_block, l3_block, 109);
+		resetMem();		
+		
+//
+//		test_write_buffer("L3", 256, 8, 50);
+//		resetMem();
+//				
+		
 		$stop();
+		
+		
+		
+		
 	end
 	
 endmodule
